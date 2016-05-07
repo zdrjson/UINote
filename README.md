@@ -2,7 +2,6 @@
 # Animaton: 
 TransitionAnimation:
 [VCTransitionsLibrary](https://github.com/ColinEberhardt/VCTransitionsLibrary).    
-
 [RZTransitions](https://github.com/Raizlabs/RZTransitions),
 [HYBControllerTransitions](https://github.com/CoderJackyHuang/HYBControllerTransitions),
 [KYMagicMove](https://github.com/KittenYang/KYMagicMove)
