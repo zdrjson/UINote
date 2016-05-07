@@ -1,5 +1,6 @@
 # Note
-1.Animaton: VCTransitionsLibrary,RZTransitions
+1.Animaton: 
+TransitionAnimation:VCTransitionsLibrary,RZTransitions
 
 
 
