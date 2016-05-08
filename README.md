@@ -9,9 +9,9 @@ TransitionAnimation:
 [ViewControllersTransition](https://github.com/YouXianMing/ViewControllersTransition)
 
 # Video:
-  ##AVFoundation:
+###AVFoundation:
 [iOS使用AVFoundation实现二维码扫描](http://strivingboy.github.io/blog/2014/11/08/scan-qrcode/)
-  ##segmentfault 
+###segmentfault 
  [iOS share](http://www.imooc.com/learn/599)
 
 
