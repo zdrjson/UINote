@@ -22,6 +22,7 @@
 ## View
 * [scrollView To Top](http://www.jianshu.com/p/68632cbd6263)
 
-
+## Text
+*[CoreText](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
 
 
