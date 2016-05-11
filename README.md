@@ -28,15 +28,17 @@
 * [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
 
 ## AutoLayout
-[Autolayout standard style of writing](http://reviewcode.cn/article.html?reviewId=14)
+* [Autolayout standard style of writing](http://reviewcode.cn/article.html?reviewId=14)
 
 ## CADisplayLink
-[CADisplayLink](http://www.jianshu.com/p/c35a81c3b9eb)
+* [CADisplayLink](http://www.jianshu.com/p/c35a81c3b9eb)
 
 ## ARCHITECTURE
-[OUT OF OOP-inheritance](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)
+* [OUT OF OOP-inheritance](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)
 
 ## Memory leaks
-[MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
+* [MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
 
+##Cocoapods
+*[ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - /usr/bin/pod](http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030)
 
