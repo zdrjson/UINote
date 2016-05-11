@@ -47,4 +47,6 @@
 ##SomeGuysBlog
 * [WeiXinRead](http://wereadteam.github.io)
 
+## Git
+* [Git Flow](http://www.jianshu.com/p/fa83b6858d52)
 
