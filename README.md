@@ -11,6 +11,7 @@
 ## Video
 ### AVFoundation
 * [iOS使用AVFoundation实现二维码扫描](http://strivingboy.github.io/blog/2014/11/08/scan-qrcode/)  
+* [liveVideoIntroductionBiaoGeBlog](http://www.henishuo.com/ios-live-confused/)
 
 ### muke
  * [segmentfault iOS share](http://www.imooc.com/learn/599)
