@@ -38,7 +38,8 @@
 
 ## Memory leaks
 * [MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
+* [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)
 
 ##Cocoapods
-*[ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - /usr/bin/pod](http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030)
+* [ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - /usr/bin/pod](http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030)
 
