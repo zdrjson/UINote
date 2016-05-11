@@ -44,3 +44,7 @@
 ##Cocoapods
 * [ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - /usr/bin/pod](http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030)
 
+##SomeGuysBlog
+* [WeiXinRead](http://wereadteam.github.io)
+
+
