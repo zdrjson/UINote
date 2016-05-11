@@ -21,6 +21,7 @@
 
 ## View
 * [scrollView To Top](http://www.jianshu.com/p/68632cbd6263)
+* [why SDWebImageDecoder](http://www.jianshu.com/p/135e17c7d10f)
 
 ## Text
 * [CoreText](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
@@ -31,8 +32,10 @@
 
 ## CADisplayLink
 [CADisplayLink](http://www.jianshu.com/p/c35a81c3b9eb)
-## SDWebImage
-[why SDWebImageDecoder](http://www.jianshu.com/p/135e17c7d10f)
+
+## ARCHITECTURE
+[OUT OF OOP-inheritance](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)
+
 
 
 
