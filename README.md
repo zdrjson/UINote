@@ -11,6 +11,8 @@
 ## Video
 ### AVFoundation
 * [iOS使用AVFoundation实现二维码扫描](http://strivingboy.github.io/blog/2014/11/08/scan-qrcode/)  
+* [AVFoundation Tutorial](https://www.raywenderlich.com/30200/avfoundation-tutorial-adding-overlays-and-animations-to-videos)
+* [AVFoundation Take photo](http://www.jianshu.com/p/6dd23699f92f)
 * [liveVideoIntroductionBiaoGeBlog](http://www.henishuo.com/ios-live-confused/)
 * [book](http://item.jd.com/11742630.html)
 
