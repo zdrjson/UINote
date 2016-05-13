@@ -56,8 +56,7 @@
   
 ## Crash
 * [objc_retain] (http://www.bkjia.com/IOSjc/898404.html)
-
-  
+ 
 ## Algorithm
 * [Direct insertion sort](http://www.henishuo.com/insert-sort/)
 
