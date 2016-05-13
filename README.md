@@ -37,8 +37,9 @@
 ## CADisplayLink
 * [CADisplayLink](http://www.jianshu.com/p/c35a81c3b9eb)
 
-## ARCHITECTURE
+## Architecture
 * [OUT OF OOP-inheritance](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)
+* [IOP](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-er-duo-tai.html)
 
 ## Memory leaks
 * [MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
