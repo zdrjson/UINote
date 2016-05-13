@@ -52,4 +52,7 @@
 
 ## Git
 * [Git Flow](http://www.jianshu.com/p/fa83b6858d52)
+  
+## Crash
+* [objc_retain] (http://www.bkjia.com/IOSjc/898404.html)
 
