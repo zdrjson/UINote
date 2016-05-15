@@ -41,6 +41,7 @@
 * [OUT OF OOP-inheritance](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)
 * [IOP](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-er-duo-tai.html)
 * [OUT OF OOP-package](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-san-feng-zhuang.html)
+* [know or understand](http://casatwy.com/zen-yao-mian-shi-jia-gou-shi.html)
 
 ## Memory leaks
 * [MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
