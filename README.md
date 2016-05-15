@@ -15,6 +15,7 @@
 * [AVFoundation Take photo](http://www.jianshu.com/p/6dd23699f92f)
 * [liveVideoIntroductionBiaoGeBlog](http://www.henishuo.com/ios-live-confused/)
 * [book](http://item.jd.com/11742630.html)
+* [Bilibili / ijkplayer baseed on FFmpeg with MediaCodec,Video Toolbox support](https://github.com/Bilibili/ijkplayer)
 
 ### muke
  * [segmentfault iOS share](http://www.imooc.com/learn/599)
