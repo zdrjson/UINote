@@ -7,6 +7,7 @@
 * [HYBControllerTransitions](https://github.com/CoderJackyHuang/HYBControllerTransitions)
 * [KYMagicMove](https://github.com/KittenYang/KYMagicMove)
 * [ViewControllersTransition](https://github.com/YouXianMing/ViewControllersTransition)
+* [iOS-ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo.git)
 
 ## Video
 ### AVFoundation
