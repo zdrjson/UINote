@@ -67,7 +67,7 @@
 ## Efficiency 
 [Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
 
-## [Tool]
+## Tool
 [Phabricator](http://phabricator.org/)
 
 
