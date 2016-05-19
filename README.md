@@ -82,11 +82,11 @@
 * [Direct insertion sort](http://www.henishuo.com/insert-sort/)
 
 ## Efficiency 
-[Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
+* [Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
 
 ## Tool
-[Phabricator](http://phabricator.org/)
-[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-[Homebrew](http://brew.sh/)
+* [Phabricator](http://phabricator.org/)
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [Homebrew](http://brew.sh/)
 
 
