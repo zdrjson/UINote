@@ -29,6 +29,9 @@
 * [MJDownload](https://github.com/CoderMJLee/MJDownload.git)
 * [TCBlobDownload](https://github.com/thibaultCha/TCBlobDownload.git)
 * [ZFPlayer](https://github.com/renzifeng/ZFPlayer.git)
+## Image
+###Gif 
+[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)
 
 ## View
 * [scrollView To Top](http://www.jianshu.com/p/68632cbd6263)
