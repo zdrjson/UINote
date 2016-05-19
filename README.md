@@ -37,6 +37,10 @@
 ## Model
 * [YYModel basic knowledge](http://www.jianshu.com/p/198af7042b2d)
 
+## Cache
+* [FMDB](https://github.com/ccgus/fmdb)
+* [realm](https://github.com/realm/realm-cocoa)
+
 ## Text
 * [CoreText](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
 * [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
@@ -62,6 +66,7 @@
 
 ##SomeGuysBlog
 * [WeiXinRead](http://wereadteam.github.io)
+* [FMDB_description](http://blog.csdn.net/yixiangboy/article/details/51274186)
 
 ## Git
 * [Git Flow](http://www.jianshu.com/p/fa83b6858d52)
