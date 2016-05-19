@@ -85,14 +85,10 @@
 * [Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
 
 ## Tool
-<<<<<<< HEAD
 * [Phabricator](http://phabricator.org/)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Homebrew](http://brew.sh/)
-=======
-[Phabricator](http://phabricator.org/)
-[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-[Homebrew](http://brew.sh/)
->>>>>>> 8d6498d0eed74a685a8a26b7a132f8c7e7b09ffc
+
+
 
 
