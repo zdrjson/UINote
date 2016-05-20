@@ -45,6 +45,8 @@
 ## Text
 * [CoreText](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
 * [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
+* [UILabel replacement with fine-grain appear/disappear animation](https://github.com/overboming/ZCAnimatedLabel)
+
 
 ## AutoLayout
 * [Autolayout standard style of writing](http://reviewcode.cn/article.html?reviewId=14)
