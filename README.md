@@ -68,6 +68,8 @@
 
 ##Cocoapods
 * [ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - /usr/bin/pod](http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030)
+* [Operation not permitted - /usr/bin/fuzzy_match](http://blog.csdn.net/sinat_29998157/article/details/50070687)
+* [While executing gem ... (TypeError) no implicit conversion of nil into String](http://stackoverflow.com/questions/25844937/how-to-install-cocoa-pods-in-terminal)
 
 ##SomeGuysBlog
 * [WeiXinRead](http://wereadteam.github.io)
@@ -84,9 +86,13 @@
 * [Direct insertion sort](http://www.henishuo.com/insert-sort/)
 
 ## Efficiency 
-[Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
+* [Mac_MrPeak](http://mrpeak.cn/blog/mac-efficiency/)
 
 ## Tool
-[Phabricator](http://phabricator.org/)
+* [Phabricator](http://phabricator.org/)
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [Homebrew](http://brew.sh/)
+
+
 
 
