@@ -30,6 +30,7 @@
 ## Image
 ### Gif 
 [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)
+[sever return 304](http://weibo.com/1247589445/DwgHFs2cF?type=repost)
 
 ## View
 * [scrollView To Top](http://www.jianshu.com/p/68632cbd6263)
