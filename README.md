@@ -22,9 +22,6 @@
  * [segmentfault iOS share](http://www.imooc.com/learn/599)
  * [beijing swift conference](http://www.imooc.com/learn/600)
 
-### FRP
-* [RAC](https://github.com/ReactiveCocoaChina/ReactiveCocoaChineseResources)
-
 ### Download
 * [MJDownload](https://github.com/CoderMJLee/MJDownload.git)
 * [TCBlobDownload](https://github.com/thibaultCha/TCBlobDownload.git)
@@ -61,6 +58,10 @@
 * [OUT OF OOP-package](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-san-feng-zhuang.html)
 * [know or understand](http://casatwy.com/zen-yao-mian-shi-jia-gou-shi.html)
 
+### FRP
+* [RAC](https://github.com/ReactiveCocoaChina/ReactiveCocoaChineseResources)
+
+
 ## Memory leaks
 * [MLeaksFinder](https://github.com/Zepo/MLeaksFinder)
 * [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)
@@ -71,6 +72,7 @@
 ##SomeGuysBlog
 * [WeiXinRead](http://wereadteam.github.io)
 * [FMDB_description](http://blog.csdn.net/yixiangboy/article/details/51274186)
+* [integration ijkplayer](http://www.jianshu.com/p/1f06b27b3ac0)
 
 ## Git
 * [Git Flow](http://www.jianshu.com/p/fa83b6858d52)
