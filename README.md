@@ -44,7 +44,8 @@
 * [realm](https://github.com/realm/realm-cocoa)
 
 ## Text
-* [CoreText](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
+* [CoreText_xiongzenghu](http://xiongzenghuidegithub.github.io/blog/2016/04/26/coretext-part-3/)
+* [CoreText_zoomfeng](http://www.zoomfeng.com/blog/coretextshi-yong-jiao-cheng-%5B%3F%5D.html)
 * [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
 * [UILabel replacement with fine-grain appear/disappear animation](https://github.com/overboming/ZCAnimatedLabel)
 * [TYAttrubutedLabel](https://github.com/12207480/TYAttributedLabel)
