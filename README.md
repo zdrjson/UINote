@@ -9,6 +9,9 @@
 * [ViewControllersTransition](https://github.com/YouXianMing/ViewControllersTransition)
 * [iOS-ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo.git)
 
+### CollectionAnimation
+*[popping](https://github.com/schneiderandre/popping)
+
 ## Video
 ### AVFoundation
 * [iOS使用AVFoundation实现二维码扫描](http://strivingboy.github.io/blog/2014/11/08/scan-qrcode/)  
