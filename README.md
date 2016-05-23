@@ -10,7 +10,12 @@
 * [iOS-ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo.git)
 
 ### CollectionAnimation
-*[popping](https://github.com/schneiderandre/popping)
+* [popping](https://github.com/schneiderandre/popping)
+
+### facebookAnimation
+* [DXPopover](https://github.com/xiekw2010/DXPopover)
+* [CMPopTipView](https://github.com/chrismiles/CMPopTipView)
+* [NirKxMenu](https://github.com/zpz1237/NirKxMenu)
 
 ## Video
 ### AVFoundation
