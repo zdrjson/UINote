@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC10BE9E19DD005500A39282 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10BE9D19DD005500A39282 /* MyTableView.m */; };
+		BC10BEA119DD020700A39282 /* ColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10BEA019DD020700A39282 /* ColumnView.m */; };
+		BC10BEA419DD207700A39282 /* QFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10BEA319DD207700A39282 /* QFLabel.m */; };
+		BC184B4D19DB8E5200C76F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B4C19DB8E5200C76F04 /* Foundation.framework */; };
+		BC184B4F19DB8E5200C76F04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B4E19DB8E5200C76F04 /* CoreGraphics.framework */; };
+		BC184B5119DB8E5200C76F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B5019DB8E5200C76F04 /* UIKit.framework */; };
+		BC184B5719DB8E5200C76F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC184B5519DB8E5200C76F04 /* InfoPlist.strings */; };
+		BC184B5919DB8E5200C76F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B5819DB8E5200C76F04 /* main.m */; };
+		BC184B5D19DB8E5200C76F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B5C19DB8E5200C76F04 /* AppDelegate.m */; };
+		BC184B5F19DB8E5200C76F04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC184B5E19DB8E5200C76F04 /* Images.xcassets */; };
+		BC184B6619DB8E5200C76F04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B6519DB8E5200C76F04 /* XCTest.framework */; };
+		BC184B6719DB8E5200C76F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B4C19DB8E5200C76F04 /* Foundation.framework */; };
+		BC184B6819DB8E5200C76F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC184B5019DB8E5200C76F04 /* UIKit.framework */; };
+		BC184B7019DB8E5200C76F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC184B6E19DB8E5200C76F04 /* InfoPlist.strings */; };
+		BC184B7219DB8E5200C76F04 /* SianProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B7119DB8E5200C76F04 /* SianProjectTests.m */; };
+		BC184B7D19DB908400C76F04 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B7C19DB908400C76F04 /* NewsViewController.m */; };
+		BC184B8019DB909300C76F04 /* VoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B7F19DB909300C76F04 /* VoteViewController.m */; };
+		BC184B8319DB909D00C76F04 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B8219DB909D00C76F04 /* TopicViewController.m */; };
+		BC184B8619DB90AB00C76F04 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B8519DB90AB00C76F04 /* CommentViewController.m */; };
+		BC184B8919DB90BB00C76F04 /* PicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B8819DB90BB00C76F04 /* PicViewController.m */; };
+		BC184B9119DB949600C76F04 /* QFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B9019DB949600C76F04 /* QFTabBarController.m */; };
+		BC184B9419DBAA5800C76F04 /* QFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B9319DBAA5800C76F04 /* QFImageView.m */; };
+		BC184B9719DBAECE00C76F04 /* QFTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC184B9619DBAECE00C76F04 /* QFTabItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC184B6919DB8E5200C76F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC184B4119DB8E5200C76F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC184B4819DB8E5200C76F04;
+			remoteInfo = SianProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC10BE9C19DD005500A39282 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		BC10BE9D19DD005500A39282 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		BC10BE9F19DD020700A39282 /* ColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnView.h; sourceTree = "<group>"; };
+		BC10BEA019DD020700A39282 /* ColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnView.m; sourceTree = "<group>"; };
+		BC10BEA219DD207700A39282 /* QFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFLabel.h; sourceTree = "<group>"; };
+		BC10BEA319DD207700A39282 /* QFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFLabel.m; sourceTree = "<group>"; };
+		BC184B4919DB8E5200C76F04 /* SianProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SianProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC184B4C19DB8E5200C76F04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC184B4E19DB8E5200C76F04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC184B5019DB8E5200C76F04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC184B5419DB8E5200C76F04 /* SianProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SianProject-Info.plist"; sourceTree = "<group>"; };
+		BC184B5619DB8E5200C76F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC184B5819DB8E5200C76F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC184B5A19DB8E5200C76F04 /* SianProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SianProject-Prefix.pch"; sourceTree = "<group>"; };
+		BC184B5B19DB8E5200C76F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC184B5C19DB8E5200C76F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC184B5E19DB8E5200C76F04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC184B6419DB8E5200C76F04 /* SianProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SianProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC184B6519DB8E5200C76F04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC184B6D19DB8E5200C76F04 /* SianProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SianProjectTests-Info.plist"; sourceTree = "<group>"; };
+		BC184B6F19DB8E5200C76F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC184B7119DB8E5200C76F04 /* SianProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SianProjectTests.m; sourceTree = "<group>"; };
+		BC184B7B19DB908400C76F04 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BC184B7C19DB908400C76F04 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		BC184B7E19DB909300C76F04 /* VoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteViewController.h; sourceTree = "<group>"; };
+		BC184B7F19DB909300C76F04 /* VoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteViewController.m; sourceTree = "<group>"; };
+		BC184B8119DB909D00C76F04 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		BC184B8219DB909D00C76F04 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		BC184B8419DB90AB00C76F04 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		BC184B8519DB90AB00C76F04 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		BC184B8719DB90BB00C76F04 /* PicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicViewController.h; sourceTree = "<group>"; };
+		BC184B8819DB90BB00C76F04 /* PicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicViewController.m; sourceTree = "<group>"; };
+		BC184B8C19DB91F500C76F04 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		BC184B8F19DB949600C76F04 /* QFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTabBarController.h; sourceTree = "<group>"; };
+		BC184B9019DB949600C76F04 /* QFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTabBarController.m; sourceTree = "<group>"; };
+		BC184B9219DBAA5800C76F04 /* QFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFImageView.h; sourceTree = "<group>"; };
+		BC184B9319DBAA5800C76F04 /* QFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFImageView.m; sourceTree = "<group>"; };
+		BC184B9519DBAECE00C76F04 /* QFTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTabItem.h; sourceTree = "<group>"; };
+		BC184B9619DBAECE00C76F04 /* QFTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTabItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC184B4619DB8E5200C76F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B4F19DB8E5200C76F04 /* CoreGraphics.framework in Frameworks */,
+				BC184B5119DB8E5200C76F04 /* UIKit.framework in Frameworks */,
+				BC184B4D19DB8E5200C76F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC184B6119DB8E5200C76F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B6619DB8E5200C76F04 /* XCTest.framework in Frameworks */,
+				BC184B6819DB8E5200C76F04 /* UIKit.framework in Frameworks */,
+				BC184B6719DB8E5200C76F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC184B4019DB8E5200C76F04 = {
+			isa = PBXGroup;
+			children = (
+				BC184B5219DB8E5200C76F04 /* SianProject */,
+				BC184B6B19DB8E5200C76F04 /* SianProjectTests */,
+				BC184B4B19DB8E5200C76F04 /* Frameworks */,
+				BC184B4A19DB8E5200C76F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC184B4A19DB8E5200C76F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B4919DB8E5200C76F04 /* SianProject.app */,
+				BC184B6419DB8E5200C76F04 /* SianProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC184B4B19DB8E5200C76F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B4C19DB8E5200C76F04 /* Foundation.framework */,
+				BC184B4E19DB8E5200C76F04 /* CoreGraphics.framework */,
+				BC184B5019DB8E5200C76F04 /* UIKit.framework */,
+				BC184B6519DB8E5200C76F04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC184B5219DB8E5200C76F04 /* SianProject */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B8E19DB946900C76F04 /* BaseView */,
+				BC184B8D19DB945700C76F04 /* BaseController */,
+				BC184B8B19DB915400C76F04 /* Common */,
+				BC184B5B19DB8E5200C76F04 /* AppDelegate.h */,
+				BC184B5C19DB8E5200C76F04 /* AppDelegate.m */,
+				BC184B8A19DB90C400C76F04 /* news */,
+				BC184B7E19DB909300C76F04 /* VoteViewController.h */,
+				BC184B7F19DB909300C76F04 /* VoteViewController.m */,
+				BC184B8119DB909D00C76F04 /* TopicViewController.h */,
+				BC184B8219DB909D00C76F04 /* TopicViewController.m */,
+				BC184B8419DB90AB00C76F04 /* CommentViewController.h */,
+				BC184B8519DB90AB00C76F04 /* CommentViewController.m */,
+				BC184B8719DB90BB00C76F04 /* PicViewController.h */,
+				BC184B8819DB90BB00C76F04 /* PicViewController.m */,
+				BC184B5E19DB8E5200C76F04 /* Images.xcassets */,
+				BC184B5319DB8E5200C76F04 /* Supporting Files */,
+			);
+			path = SianProject;
+			sourceTree = "<group>";
+		};
+		BC184B5319DB8E5200C76F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B5419DB8E5200C76F04 /* SianProject-Info.plist */,
+				BC184B5519DB8E5200C76F04 /* InfoPlist.strings */,
+				BC184B5819DB8E5200C76F04 /* main.m */,
+				BC184B5A19DB8E5200C76F04 /* SianProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC184B6B19DB8E5200C76F04 /* SianProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B7119DB8E5200C76F04 /* SianProjectTests.m */,
+				BC184B6C19DB8E5200C76F04 /* Supporting Files */,
+			);
+			path = SianProjectTests;
+			sourceTree = "<group>";
+		};
+		BC184B6C19DB8E5200C76F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B6D19DB8E5200C76F04 /* SianProjectTests-Info.plist */,
+				BC184B6E19DB8E5200C76F04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC184B8A19DB90C400C76F04 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B7B19DB908400C76F04 /* NewsViewController.h */,
+				BC184B7C19DB908400C76F04 /* NewsViewController.m */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
+		BC184B8B19DB915400C76F04 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B8C19DB91F500C76F04 /* Common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BC184B8D19DB945700C76F04 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B8F19DB949600C76F04 /* QFTabBarController.h */,
+				BC184B9019DB949600C76F04 /* QFTabBarController.m */,
+				BC184B9519DBAECE00C76F04 /* QFTabItem.h */,
+				BC184B9619DBAECE00C76F04 /* QFTabItem.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		BC184B8E19DB946900C76F04 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				BC184B9219DBAA5800C76F04 /* QFImageView.h */,
+				BC184B9319DBAA5800C76F04 /* QFImageView.m */,
+				BC10BE9C19DD005500A39282 /* MyTableView.h */,
+				BC10BE9D19DD005500A39282 /* MyTableView.m */,
+				BC10BE9F19DD020700A39282 /* ColumnView.h */,
+				BC10BEA019DD020700A39282 /* ColumnView.m */,
+				BC10BEA219DD207700A39282 /* QFLabel.h */,
+				BC10BEA319DD207700A39282 /* QFLabel.m */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC184B4819DB8E5200C76F04 /* SianProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC184B7519DB8E5200C76F04 /* Build configuration list for PBXNativeTarget "SianProject" */;
+			buildPhases = (
+				BC184B4519DB8E5200C76F04 /* Sources */,
+				BC184B4619DB8E5200C76F04 /* Frameworks */,
+				BC184B4719DB8E5200C76F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SianProject;
+			productName = SianProject;
+			productReference = BC184B4919DB8E5200C76F04 /* SianProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC184B6319DB8E5200C76F04 /* SianProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC184B7819DB8E5200C76F04 /* Build configuration list for PBXNativeTarget "SianProjectTests" */;
+			buildPhases = (
+				BC184B6019DB8E5200C76F04 /* Sources */,
+				BC184B6119DB8E5200C76F04 /* Frameworks */,
+				BC184B6219DB8E5200C76F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC184B6A19DB8E5200C76F04 /* PBXTargetDependency */,
+			);
+			name = SianProjectTests;
+			productName = SianProjectTests;
+			productReference = BC184B6419DB8E5200C76F04 /* SianProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC184B4119DB8E5200C76F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BC184B6319DB8E5200C76F04 = {
+						TestTargetID = BC184B4819DB8E5200C76F04;
+					};
+				};
+			};
+			buildConfigurationList = BC184B4419DB8E5200C76F04 /* Build configuration list for PBXProject "SianProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC184B4019DB8E5200C76F04;
+			productRefGroup = BC184B4A19DB8E5200C76F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC184B4819DB8E5200C76F04 /* SianProject */,
+				BC184B6319DB8E5200C76F04 /* SianProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC184B4719DB8E5200C76F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B5719DB8E5200C76F04 /* InfoPlist.strings in Resources */,
+				BC184B5F19DB8E5200C76F04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC184B6219DB8E5200C76F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B7019DB8E5200C76F04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC184B4519DB8E5200C76F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B8619DB90AB00C76F04 /* CommentViewController.m in Sources */,
+				BC184B8019DB909300C76F04 /* VoteViewController.m in Sources */,
+				BC184B7D19DB908400C76F04 /* NewsViewController.m in Sources */,
+				BC10BEA419DD207700A39282 /* QFLabel.m in Sources */,
+				BC10BE9E19DD005500A39282 /* MyTableView.m in Sources */,
+				BC184B5D19DB8E5200C76F04 /* AppDelegate.m in Sources */,
+				BC184B8919DB90BB00C76F04 /* PicViewController.m in Sources */,
+				BC184B9719DBAECE00C76F04 /* QFTabItem.m in Sources */,
+				BC184B8319DB909D00C76F04 /* TopicViewController.m in Sources */,
+				BC10BEA119DD020700A39282 /* ColumnView.m in Sources */,
+				BC184B9419DBAA5800C76F04 /* QFImageView.m in Sources */,
+				BC184B9119DB949600C76F04 /* QFTabBarController.m in Sources */,
+				BC184B5919DB8E5200C76F04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC184B6019DB8E5200C76F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC184B7219DB8E5200C76F04 /* SianProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC184B6A19DB8E5200C76F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC184B4819DB8E5200C76F04 /* SianProject */;
+			targetProxy = BC184B6919DB8E5200C76F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC184B5519DB8E5200C76F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC184B5619DB8E5200C76F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC184B6E19DB8E5200C76F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC184B6F19DB8E5200C76F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC184B7319DB8E5200C76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC184B7419DB8E5200C76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC184B7619DB8E5200C76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SianProject/SianProject-Prefix.pch";
+				INFOPLIST_FILE = "SianProject/SianProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC184B7719DB8E5200C76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SianProject/SianProject-Prefix.pch";
+				INFOPLIST_FILE = "SianProject/SianProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC184B7919DB8E5200C76F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SianProject.app/SianProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SianProject/SianProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SianProjectTests/SianProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC184B7A19DB8E5200C76F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SianProject.app/SianProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SianProject/SianProject-Prefix.pch";
+				INFOPLIST_FILE = "SianProjectTests/SianProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC184B4419DB8E5200C76F04 /* Build configuration list for PBXProject "SianProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC184B7319DB8E5200C76F04 /* Debug */,
+				BC184B7419DB8E5200C76F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC184B7519DB8E5200C76F04 /* Build configuration list for PBXNativeTarget "SianProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC184B7619DB8E5200C76F04 /* Debug */,
+				BC184B7719DB8E5200C76F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC184B7819DB8E5200C76F04 /* Build configuration list for PBXNativeTarget "SianProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC184B7919DB8E5200C76F04 /* Debug */,
+				BC184B7A19DB8E5200C76F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC184B4119DB8E5200C76F04 /* Project object */;
+}

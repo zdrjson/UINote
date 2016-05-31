@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0532581A063ADF00E51C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0532571A063ADF00E51C11 /* Foundation.framework */; };
+		BC05325A1A063ADF00E51C11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0532591A063ADF00E51C11 /* CoreGraphics.framework */; };
+		BC05325C1A063ADF00E51C11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC05325B1A063ADF00E51C11 /* UIKit.framework */; };
+		BC0532621A063ADF00E51C11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC0532601A063ADF00E51C11 /* InfoPlist.strings */; };
+		BC0532641A063ADF00E51C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532631A063ADF00E51C11 /* main.m */; };
+		BC0532681A063ADF00E51C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532671A063ADF00E51C11 /* AppDelegate.m */; };
+		BC05326B1A063ADF00E51C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0532691A063ADF00E51C11 /* Main.storyboard */; };
+		BC05326E1A063ADF00E51C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05326D1A063ADF00E51C11 /* ViewController.m */; };
+		BC0532701A063ADF00E51C11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC05326F1A063ADF00E51C11 /* Images.xcassets */; };
+		BC0532771A063ADF00E51C11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0532761A063ADF00E51C11 /* XCTest.framework */; };
+		BC0532781A063ADF00E51C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0532571A063ADF00E51C11 /* Foundation.framework */; };
+		BC0532791A063ADF00E51C11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC05325B1A063ADF00E51C11 /* UIKit.framework */; };
+		BC0532811A063ADF00E51C11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC05327F1A063ADF00E51C11 /* InfoPlist.strings */; };
+		BC0532831A063AE000E51C11 /* Sunday_11_2_iChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532821A063AE000E51C11 /* Sunday_11_2_iChatTests.m */; };
+		BC0532921A06487200E51C11 /* ChatEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532911A06487200E51C11 /* ChatEngine.m */; };
+		BC0532961A064DC400E51C11 /* HttpRequstManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532951A064DC400E51C11 /* HttpRequstManager.m */; };
+		BC0532991A064E5200E51C11 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0532981A064E5200E51C11 /* UserModel.m */; };
+		BC05329C1A064F4800E51C11 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05329B1A064F4800E51C11 /* BaseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC05327A1A063ADF00E51C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC05324C1A063ADF00E51C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0532531A063ADF00E51C11;
+			remoteInfo = Sunday_11.2_iChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0532541A063ADF00E51C11 /* Sunday_11.2_iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunday_11.2_iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0532571A063ADF00E51C11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC0532591A063ADF00E51C11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC05325B1A063ADF00E51C11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC05325F1A063ADF00E51C11 /* Sunday_11.2_iChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sunday_11.2_iChat-Info.plist"; sourceTree = "<group>"; };
+		BC0532611A063ADF00E51C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC0532631A063ADF00E51C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC0532651A063ADF00E51C11 /* Sunday_11.2_iChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sunday_11.2_iChat-Prefix.pch"; sourceTree = "<group>"; };
+		BC0532661A063ADF00E51C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC0532671A063ADF00E51C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC05326A1A063ADF00E51C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC05326C1A063ADF00E51C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Sunday_11.2_iChat/ViewController.h; sourceTree = "<group>"; };
+		BC05326D1A063ADF00E51C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Sunday_11.2_iChat/ViewController.m; sourceTree = "<group>"; };
+		BC05326F1A063ADF00E51C11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC0532751A063ADF00E51C11 /* Sunday_11.2_iChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sunday_11.2_iChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0532761A063ADF00E51C11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC05327E1A063ADF00E51C11 /* Sunday_11.2_iChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sunday_11.2_iChatTests-Info.plist"; sourceTree = "<group>"; };
+		BC0532801A063ADF00E51C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC0532821A063AE000E51C11 /* Sunday_11_2_iChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sunday_11_2_iChatTests.m; sourceTree = "<group>"; };
+		BC0532901A06487200E51C11 /* ChatEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatEngine.h; sourceTree = "<group>"; };
+		BC0532911A06487200E51C11 /* ChatEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEngine.m; sourceTree = "<group>"; };
+		BC0532931A064C0F00E51C11 /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		BC0532941A064DC400E51C11 /* HttpRequstManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequstManager.h; sourceTree = "<group>"; };
+		BC0532951A064DC400E51C11 /* HttpRequstManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequstManager.m; sourceTree = "<group>"; };
+		BC0532971A064E5200E51C11 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		BC0532981A064E5200E51C11 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		BC05329A1A064F4800E51C11 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BC05329B1A064F4800E51C11 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0532511A063ADF00E51C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC05325A1A063ADF00E51C11 /* CoreGraphics.framework in Frameworks */,
+				BC05325C1A063ADF00E51C11 /* UIKit.framework in Frameworks */,
+				BC0532581A063ADF00E51C11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0532721A063ADF00E51C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0532771A063ADF00E51C11 /* XCTest.framework in Frameworks */,
+				BC0532791A063ADF00E51C11 /* UIKit.framework in Frameworks */,
+				BC0532781A063ADF00E51C11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC05324B1A063ADF00E51C11 = {
+			isa = PBXGroup;
+			children = (
+				BC05328F1A063B7500E51C11 /* Utils */,
+				BC05328E1A063B7300E51C11 /* Models */,
+				BC05328D1A063B7100E51C11 /* Views */,
+				BC05328C1A063B6E00E51C11 /* Controllers */,
+				BC05325D1A063ADF00E51C11 /* Sunday_11.2_iChat */,
+				BC05327C1A063ADF00E51C11 /* Sunday_11.2_iChatTests */,
+				BC0532561A063ADF00E51C11 /* Frameworks */,
+				BC0532551A063ADF00E51C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0532551A063ADF00E51C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0532541A063ADF00E51C11 /* Sunday_11.2_iChat.app */,
+				BC0532751A063ADF00E51C11 /* Sunday_11.2_iChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0532561A063ADF00E51C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0532571A063ADF00E51C11 /* Foundation.framework */,
+				BC0532591A063ADF00E51C11 /* CoreGraphics.framework */,
+				BC05325B1A063ADF00E51C11 /* UIKit.framework */,
+				BC0532761A063ADF00E51C11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC05325D1A063ADF00E51C11 /* Sunday_11.2_iChat */ = {
+			isa = PBXGroup;
+			children = (
+				BC0532661A063ADF00E51C11 /* AppDelegate.h */,
+				BC0532671A063ADF00E51C11 /* AppDelegate.m */,
+				BC0532691A063ADF00E51C11 /* Main.storyboard */,
+				BC05326F1A063ADF00E51C11 /* Images.xcassets */,
+				BC05325E1A063ADF00E51C11 /* Supporting Files */,
+			);
+			path = Sunday_11.2_iChat;
+			sourceTree = "<group>";
+		};
+		BC05325E1A063ADF00E51C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC05325F1A063ADF00E51C11 /* Sunday_11.2_iChat-Info.plist */,
+				BC0532601A063ADF00E51C11 /* InfoPlist.strings */,
+				BC0532631A063ADF00E51C11 /* main.m */,
+				BC0532651A063ADF00E51C11 /* Sunday_11.2_iChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC05327C1A063ADF00E51C11 /* Sunday_11.2_iChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0532821A063AE000E51C11 /* Sunday_11_2_iChatTests.m */,
+				BC05327D1A063ADF00E51C11 /* Supporting Files */,
+			);
+			path = Sunday_11.2_iChatTests;
+			sourceTree = "<group>";
+		};
+		BC05327D1A063ADF00E51C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC05327E1A063ADF00E51C11 /* Sunday_11.2_iChatTests-Info.plist */,
+				BC05327F1A063ADF00E51C11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC05328C1A063B6E00E51C11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC05326C1A063ADF00E51C11 /* ViewController.h */,
+				BC05326D1A063ADF00E51C11 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BC05328D1A063B7100E51C11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BC05328E1A063B7300E51C11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC05329A1A064F4800E51C11 /* BaseModel.h */,
+				BC05329B1A064F4800E51C11 /* BaseModel.m */,
+				BC0532971A064E5200E51C11 /* UserModel.h */,
+				BC0532981A064E5200E51C11 /* UserModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BC05328F1A063B7500E51C11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC0532901A06487200E51C11 /* ChatEngine.h */,
+				BC0532911A06487200E51C11 /* ChatEngine.m */,
+				BC0532941A064DC400E51C11 /* HttpRequstManager.h */,
+				BC0532951A064DC400E51C11 /* HttpRequstManager.m */,
+				BC0532931A064C0F00E51C11 /* Public.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0532531A063ADF00E51C11 /* Sunday_11.2_iChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0532861A063AE000E51C11 /* Build configuration list for PBXNativeTarget "Sunday_11.2_iChat" */;
+			buildPhases = (
+				BC0532501A063ADF00E51C11 /* Sources */,
+				BC0532511A063ADF00E51C11 /* Frameworks */,
+				BC0532521A063ADF00E51C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunday_11.2_iChat;
+			productName = Sunday_11.2_iChat;
+			productReference = BC0532541A063ADF00E51C11 /* Sunday_11.2_iChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC0532741A063ADF00E51C11 /* Sunday_11.2_iChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0532891A063AE000E51C11 /* Build configuration list for PBXNativeTarget "Sunday_11.2_iChatTests" */;
+			buildPhases = (
+				BC0532711A063ADF00E51C11 /* Sources */,
+				BC0532721A063ADF00E51C11 /* Frameworks */,
+				BC0532731A063ADF00E51C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC05327B1A063ADF00E51C11 /* PBXTargetDependency */,
+			);
+			name = Sunday_11.2_iChatTests;
+			productName = Sunday_11.2_iChatTests;
+			productReference = BC0532751A063ADF00E51C11 /* Sunday_11.2_iChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC05324C1A063ADF00E51C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BC0532741A063ADF00E51C11 = {
+						TestTargetID = BC0532531A063ADF00E51C11;
+					};
+				};
+			};
+			buildConfigurationList = BC05324F1A063ADF00E51C11 /* Build configuration list for PBXProject "Sunday_11.2_iChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC05324B1A063ADF00E51C11;
+			productRefGroup = BC0532551A063ADF00E51C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0532531A063ADF00E51C11 /* Sunday_11.2_iChat */,
+				BC0532741A063ADF00E51C11 /* Sunday_11.2_iChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0532521A063ADF00E51C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0532701A063ADF00E51C11 /* Images.xcassets in Resources */,
+				BC0532621A063ADF00E51C11 /* InfoPlist.strings in Resources */,
+				BC05326B1A063ADF00E51C11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0532731A063ADF00E51C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0532811A063ADF00E51C11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0532501A063ADF00E51C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0532961A064DC400E51C11 /* HttpRequstManager.m in Sources */,
+				BC05326E1A063ADF00E51C11 /* ViewController.m in Sources */,
+				BC0532991A064E5200E51C11 /* UserModel.m in Sources */,
+				BC05329C1A064F4800E51C11 /* BaseModel.m in Sources */,
+				BC0532921A06487200E51C11 /* ChatEngine.m in Sources */,
+				BC0532681A063ADF00E51C11 /* AppDelegate.m in Sources */,
+				BC0532641A063ADF00E51C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0532711A063ADF00E51C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0532831A063AE000E51C11 /* Sunday_11_2_iChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC05327B1A063ADF00E51C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0532531A063ADF00E51C11 /* Sunday_11.2_iChat */;
+			targetProxy = BC05327A1A063ADF00E51C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0532601A063ADF00E51C11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0532611A063ADF00E51C11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC0532691A063ADF00E51C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC05326A1A063ADF00E51C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC05327F1A063ADF00E51C11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0532801A063ADF00E51C11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0532841A063AE000E51C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC0532851A063AE000E51C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0532871A063AE000E51C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunday_11.2_iChat/Sunday_11.2_iChat-Prefix.pch";
+				INFOPLIST_FILE = "Sunday_11.2_iChat/Sunday_11.2_iChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC0532881A063AE000E51C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunday_11.2_iChat/Sunday_11.2_iChat-Prefix.pch";
+				INFOPLIST_FILE = "Sunday_11.2_iChat/Sunday_11.2_iChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC05328A1A063AE000E51C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sunday_11.2_iChat.app/Sunday_11.2_iChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunday_11.2_iChat/Sunday_11.2_iChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sunday_11.2_iChatTests/Sunday_11.2_iChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC05328B1A063AE000E51C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sunday_11.2_iChat.app/Sunday_11.2_iChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunday_11.2_iChat/Sunday_11.2_iChat-Prefix.pch";
+				INFOPLIST_FILE = "Sunday_11.2_iChatTests/Sunday_11.2_iChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC05324F1A063ADF00E51C11 /* Build configuration list for PBXProject "Sunday_11.2_iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0532841A063AE000E51C11 /* Debug */,
+				BC0532851A063AE000E51C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0532861A063AE000E51C11 /* Build configuration list for PBXNativeTarget "Sunday_11.2_iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0532871A063AE000E51C11 /* Debug */,
+				BC0532881A063AE000E51C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC0532891A063AE000E51C11 /* Build configuration list for PBXNativeTarget "Sunday_11.2_iChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC05328A1A063AE000E51C11 /* Debug */,
+				BC05328B1A063AE000E51C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC05324C1A063ADF00E51C11 /* Project object */;
+}

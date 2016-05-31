@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC04442019E10FC100099F8A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04441F19E10FC100099F8A /* RootViewController.m */; };
+		BC3D182E19E00EC3009DC78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D182D19E00EC3009DC78F /* Foundation.framework */; };
+		BC3D183019E00EC3009DC78F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D182F19E00EC3009DC78F /* CoreGraphics.framework */; };
+		BC3D183219E00EC3009DC78F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D183119E00EC3009DC78F /* UIKit.framework */; };
+		BC3D183819E00EC3009DC78F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3D183619E00EC3009DC78F /* InfoPlist.strings */; };
+		BC3D183A19E00EC3009DC78F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D183919E00EC3009DC78F /* main.m */; };
+		BC3D183E19E00EC3009DC78F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D183D19E00EC3009DC78F /* AppDelegate.m */; };
+		BC3D184019E00EC3009DC78F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3D183F19E00EC3009DC78F /* Images.xcassets */; };
+		BC3D184719E00EC3009DC78F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D184619E00EC3009DC78F /* XCTest.framework */; };
+		BC3D184819E00EC3009DC78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D182D19E00EC3009DC78F /* Foundation.framework */; };
+		BC3D184919E00EC3009DC78F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D183119E00EC3009DC78F /* UIKit.framework */; };
+		BC3D185119E00EC4009DC78F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3D184F19E00EC3009DC78F /* InfoPlist.strings */; };
+		BC3D185319E00EC4009DC78F /* BSIHttpRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D185219E00EC4009DC78F /* BSIHttpRequestTests.m */; };
+		BC3D185E19E01011009DC78F /* BSIDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D185D19E01011009DC78F /* BSIDemo.m */; };
+		BC3D186219E010B5009DC78F /* BSIHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D186119E010B5009DC78F /* BSIHttpRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3D184A19E00EC3009DC78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3D182219E00EC3009DC78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3D182919E00EC3009DC78F;
+			remoteInfo = BSIHttpRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC04441E19E10FC100099F8A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BC04441F19E10FC100099F8A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BC3D182A19E00EC3009DC78F /* BSIHttpRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSIHttpRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3D182D19E00EC3009DC78F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC3D182F19E00EC3009DC78F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC3D183119E00EC3009DC78F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC3D183519E00EC3009DC78F /* BSIHttpRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSIHttpRequest-Info.plist"; sourceTree = "<group>"; };
+		BC3D183719E00EC3009DC78F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3D183919E00EC3009DC78F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3D183B19E00EC3009DC78F /* BSIHttpRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSIHttpRequest-Prefix.pch"; sourceTree = "<group>"; };
+		BC3D183C19E00EC3009DC78F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3D183D19E00EC3009DC78F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3D183F19E00EC3009DC78F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC3D184519E00EC3009DC78F /* BSIHttpRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSIHttpRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3D184619E00EC3009DC78F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC3D184E19E00EC3009DC78F /* BSIHttpRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSIHttpRequestTests-Info.plist"; sourceTree = "<group>"; };
+		BC3D185019E00EC3009DC78F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3D185219E00EC4009DC78F /* BSIHttpRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSIHttpRequestTests.m; sourceTree = "<group>"; };
+		BC3D185C19E01011009DC78F /* BSIDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIDemo.h; sourceTree = "<group>"; };
+		BC3D185D19E01011009DC78F /* BSIDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIDemo.m; sourceTree = "<group>"; };
+		BC3D186019E010B5009DC78F /* BSIHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIHttpRequest.h; sourceTree = "<group>"; };
+		BC3D186119E010B5009DC78F /* BSIHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIHttpRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3D182719E00EC3009DC78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D183019E00EC3009DC78F /* CoreGraphics.framework in Frameworks */,
+				BC3D183219E00EC3009DC78F /* UIKit.framework in Frameworks */,
+				BC3D182E19E00EC3009DC78F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3D184219E00EC3009DC78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D184719E00EC3009DC78F /* XCTest.framework in Frameworks */,
+				BC3D184919E00EC3009DC78F /* UIKit.framework in Frameworks */,
+				BC3D184819E00EC3009DC78F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3D182119E00EC3009DC78F = {
+			isa = PBXGroup;
+			children = (
+				BC3D185F19E0108C009DC78F /* Network */,
+				BC3D185C19E01011009DC78F /* BSIDemo.h */,
+				BC3D185D19E01011009DC78F /* BSIDemo.m */,
+				BC3D183319E00EC3009DC78F /* BSIHttpRequest */,
+				BC3D184C19E00EC3009DC78F /* BSIHttpRequestTests */,
+				BC3D182C19E00EC3009DC78F /* Frameworks */,
+				BC3D182B19E00EC3009DC78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3D182B19E00EC3009DC78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D182A19E00EC3009DC78F /* BSIHttpRequest.app */,
+				BC3D184519E00EC3009DC78F /* BSIHttpRequestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3D182C19E00EC3009DC78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D182D19E00EC3009DC78F /* Foundation.framework */,
+				BC3D182F19E00EC3009DC78F /* CoreGraphics.framework */,
+				BC3D183119E00EC3009DC78F /* UIKit.framework */,
+				BC3D184619E00EC3009DC78F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3D183319E00EC3009DC78F /* BSIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BC04441E19E10FC100099F8A /* RootViewController.h */,
+				BC04441F19E10FC100099F8A /* RootViewController.m */,
+				BC3D183C19E00EC3009DC78F /* AppDelegate.h */,
+				BC3D183D19E00EC3009DC78F /* AppDelegate.m */,
+				BC3D183F19E00EC3009DC78F /* Images.xcassets */,
+				BC3D183419E00EC3009DC78F /* Supporting Files */,
+			);
+			path = BSIHttpRequest;
+			sourceTree = "<group>";
+		};
+		BC3D183419E00EC3009DC78F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D183519E00EC3009DC78F /* BSIHttpRequest-Info.plist */,
+				BC3D183619E00EC3009DC78F /* InfoPlist.strings */,
+				BC3D183919E00EC3009DC78F /* main.m */,
+				BC3D183B19E00EC3009DC78F /* BSIHttpRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3D184C19E00EC3009DC78F /* BSIHttpRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D185219E00EC4009DC78F /* BSIHttpRequestTests.m */,
+				BC3D184D19E00EC3009DC78F /* Supporting Files */,
+			);
+			path = BSIHttpRequestTests;
+			sourceTree = "<group>";
+		};
+		BC3D184D19E00EC3009DC78F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D184E19E00EC3009DC78F /* BSIHttpRequestTests-Info.plist */,
+				BC3D184F19E00EC3009DC78F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3D185F19E0108C009DC78F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D186019E010B5009DC78F /* BSIHttpRequest.h */,
+				BC3D186119E010B5009DC78F /* BSIHttpRequest.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3D182919E00EC3009DC78F /* BSIHttpRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3D185619E00EC4009DC78F /* Build configuration list for PBXNativeTarget "BSIHttpRequest" */;
+			buildPhases = (
+				BC3D182619E00EC3009DC78F /* Sources */,
+				BC3D182719E00EC3009DC78F /* Frameworks */,
+				BC3D182819E00EC3009DC78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSIHttpRequest;
+			productName = BSIHttpRequest;
+			productReference = BC3D182A19E00EC3009DC78F /* BSIHttpRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3D184419E00EC3009DC78F /* BSIHttpRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3D185919E00EC4009DC78F /* Build configuration list for PBXNativeTarget "BSIHttpRequestTests" */;
+			buildPhases = (
+				BC3D184119E00EC3009DC78F /* Sources */,
+				BC3D184219E00EC3009DC78F /* Frameworks */,
+				BC3D184319E00EC3009DC78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3D184B19E00EC3009DC78F /* PBXTargetDependency */,
+			);
+			name = BSIHttpRequestTests;
+			productName = BSIHttpRequestTests;
+			productReference = BC3D184519E00EC3009DC78F /* BSIHttpRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3D182219E00EC3009DC78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BC3D184419E00EC3009DC78F = {
+						TestTargetID = BC3D182919E00EC3009DC78F;
+					};
+				};
+			};
+			buildConfigurationList = BC3D182519E00EC3009DC78F /* Build configuration list for PBXProject "BSIHttpRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC3D182119E00EC3009DC78F;
+			productRefGroup = BC3D182B19E00EC3009DC78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3D182919E00EC3009DC78F /* BSIHttpRequest */,
+				BC3D184419E00EC3009DC78F /* BSIHttpRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3D182819E00EC3009DC78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D183819E00EC3009DC78F /* InfoPlist.strings in Resources */,
+				BC3D184019E00EC3009DC78F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3D184319E00EC3009DC78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D185119E00EC4009DC78F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3D182619E00EC3009DC78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D183E19E00EC3009DC78F /* AppDelegate.m in Sources */,
+				BC3D185E19E01011009DC78F /* BSIDemo.m in Sources */,
+				BC3D186219E010B5009DC78F /* BSIHttpRequest.m in Sources */,
+				BC3D183A19E00EC3009DC78F /* main.m in Sources */,
+				BC04442019E10FC100099F8A /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3D184119E00EC3009DC78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D185319E00EC4009DC78F /* BSIHttpRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3D184B19E00EC3009DC78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3D182919E00EC3009DC78F /* BSIHttpRequest */;
+			targetProxy = BC3D184A19E00EC3009DC78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3D183619E00EC3009DC78F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3D183719E00EC3009DC78F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC3D184F19E00EC3009DC78F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3D185019E00EC3009DC78F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3D185419E00EC4009DC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3D185519E00EC4009DC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3D185719E00EC4009DC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSIHttpRequest/BSIHttpRequest-Prefix.pch";
+				INFOPLIST_FILE = "BSIHttpRequest/BSIHttpRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC3D185819E00EC4009DC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSIHttpRequest/BSIHttpRequest-Prefix.pch";
+				INFOPLIST_FILE = "BSIHttpRequest/BSIHttpRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC3D185A19E00EC4009DC78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSIHttpRequest.app/BSIHttpRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSIHttpRequest/BSIHttpRequest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BSIHttpRequestTests/BSIHttpRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC3D185B19E00EC4009DC78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSIHttpRequest.app/BSIHttpRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSIHttpRequest/BSIHttpRequest-Prefix.pch";
+				INFOPLIST_FILE = "BSIHttpRequestTests/BSIHttpRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3D182519E00EC3009DC78F /* Build configuration list for PBXProject "BSIHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3D185419E00EC4009DC78F /* Debug */,
+				BC3D185519E00EC4009DC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3D185619E00EC4009DC78F /* Build configuration list for PBXNativeTarget "BSIHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3D185719E00EC4009DC78F /* Debug */,
+				BC3D185819E00EC4009DC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3D185919E00EC4009DC78F /* Build configuration list for PBXNativeTarget "BSIHttpRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3D185A19E00EC4009DC78F /* Debug */,
+				BC3D185B19E00EC4009DC78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3D182219E00EC3009DC78F /* Project object */;
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0510"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC0B051A19C3F42E0083C24D"
+               BuildableName = "Saturday_9.13.app"
+               BlueprintName = "Saturday_9.13"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC0B053519C3F42F0083C24D"
+               BuildableName = "Saturday_9.13Tests.xctest"
+               BlueprintName = "Saturday_9.13Tests"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC1AC00619C43CAB00EEB6F6"
+               BuildableName = "UINavigationController_&#x5de5;&#x5177;&#x680f;Tests.xctest"
+               BlueprintName = "UINavigationController_&#x5de5;&#x5177;&#x680f;Tests"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC1AC03919C459FE00EEB6F6"
+               BuildableName = "UINavigationControllerTests.xctest"
+               BlueprintName = "UINavigationControllerTests"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC1AC06719C45A7400EEB6F6"
+               BuildableName = "UINavigationController_&#x5bfc;&#x822a;&#x5143;&#x7d20;&#x9879;Tests.xctest"
+               BlueprintName = "UINavigationController_&#x5bfc;&#x822a;&#x5143;&#x7d20;&#x9879;Tests"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC1AC09D19C46FFD00EEB6F6"
+               BuildableName = "UINavigationController_&#x5bfc;&#x822a;&#x680f;Tests.xctest"
+               BlueprintName = "UINavigationController_&#x5bfc;&#x822a;&#x680f;Tests"
+               ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BC0B051A19C3F42E0083C24D"
+            BuildableName = "Saturday_9.13.app"
+            BlueprintName = "Saturday_9.13"
+            ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BC0B051A19C3F42E0083C24D"
+            BuildableName = "Saturday_9.13.app"
+            BlueprintName = "Saturday_9.13"
+            ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BC0B051A19C3F42E0083C24D"
+            BuildableName = "Saturday_9.13.app"
+            BlueprintName = "Saturday_9.13"
+            ReferencedContainer = "container:Saturday_9.13.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

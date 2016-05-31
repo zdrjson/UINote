@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCFF006819CC20B800739DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF006719CC20B800739DF5 /* Foundation.framework */; };
+		BCFF006A19CC20B800739DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF006919CC20B800739DF5 /* CoreGraphics.framework */; };
+		BCFF006C19CC20B800739DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF006B19CC20B800739DF5 /* UIKit.framework */; };
+		BCFF007219CC20B800739DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCFF007019CC20B800739DF5 /* InfoPlist.strings */; };
+		BCFF007419CC20B800739DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF007319CC20B800739DF5 /* main.m */; };
+		BCFF007819CC20B800739DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF007719CC20B800739DF5 /* AppDelegate.m */; };
+		BCFF007A19CC20B800739DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFF007919CC20B800739DF5 /* Images.xcassets */; };
+		BCFF008119CC20B800739DF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF008019CC20B800739DF5 /* XCTest.framework */; };
+		BCFF008219CC20B800739DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF006719CC20B800739DF5 /* Foundation.framework */; };
+		BCFF008319CC20B800739DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF006B19CC20B800739DF5 /* UIKit.framework */; };
+		BCFF008B19CC20B800739DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCFF008919CC20B800739DF5 /* InfoPlist.strings */; };
+		BCFF008D19CC20B800739DF5 /* JSon__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF008C19CC20B800739DF5 /* JSon__Tests.m */; };
+		BCFF009819CC20F300739DF5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF009719CC20F300739DF5 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCFF008419CC20B800739DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFF005C19CC20B800739DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFF006319CC20B800739DF5;
+			remoteInfo = "JSon解析";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCFF006419CC20B800739DF5 /* JSon解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSon解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFF006719CC20B800739DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCFF006919CC20B800739DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCFF006B19CC20B800739DF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCFF006F19CC20B800739DF5 /* JSon解析-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSon解析-Info.plist"; sourceTree = "<group>"; };
+		BCFF007119CC20B800739DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCFF007319CC20B800739DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCFF007519CC20B800739DF5 /* JSon解析-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSon解析-Prefix.pch"; sourceTree = "<group>"; };
+		BCFF007619CC20B800739DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCFF007719CC20B800739DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCFF007919CC20B800739DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCFF007F19CC20B800739DF5 /* JSon解析Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSon解析Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFF008019CC20B800739DF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCFF008819CC20B800739DF5 /* JSon解析Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSon解析Tests-Info.plist"; sourceTree = "<group>"; };
+		BCFF008A19CC20B800739DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCFF008C19CC20B800739DF5 /* JSon__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSon__Tests.m; sourceTree = "<group>"; };
+		BCFF009619CC20F300739DF5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BCFF009719CC20F300739DF5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFF006119CC20B800739DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF006A19CC20B800739DF5 /* CoreGraphics.framework in Frameworks */,
+				BCFF006C19CC20B800739DF5 /* UIKit.framework in Frameworks */,
+				BCFF006819CC20B800739DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFF007C19CC20B800739DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF008119CC20B800739DF5 /* XCTest.framework in Frameworks */,
+				BCFF008319CC20B800739DF5 /* UIKit.framework in Frameworks */,
+				BCFF008219CC20B800739DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCFF005B19CC20B800739DF5 = {
+			isa = PBXGroup;
+			children = (
+				BCFF006D19CC20B800739DF5 /* JSon解析 */,
+				BCFF008619CC20B800739DF5 /* JSon解析Tests */,
+				BCFF006619CC20B800739DF5 /* Frameworks */,
+				BCFF006519CC20B800739DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCFF006519CC20B800739DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF006419CC20B800739DF5 /* JSon解析.app */,
+				BCFF007F19CC20B800739DF5 /* JSon解析Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFF006619CC20B800739DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF006719CC20B800739DF5 /* Foundation.framework */,
+				BCFF006919CC20B800739DF5 /* CoreGraphics.framework */,
+				BCFF006B19CC20B800739DF5 /* UIKit.framework */,
+				BCFF008019CC20B800739DF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFF006D19CC20B800739DF5 /* JSon解析 */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF007619CC20B800739DF5 /* AppDelegate.h */,
+				BCFF007719CC20B800739DF5 /* AppDelegate.m */,
+				BCFF009619CC20F300739DF5 /* RootViewController.h */,
+				BCFF009719CC20F300739DF5 /* RootViewController.m */,
+				BCFF007919CC20B800739DF5 /* Images.xcassets */,
+				BCFF006E19CC20B800739DF5 /* Supporting Files */,
+			);
+			path = "JSon解析";
+			sourceTree = "<group>";
+		};
+		BCFF006E19CC20B800739DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF006F19CC20B800739DF5 /* JSon解析-Info.plist */,
+				BCFF007019CC20B800739DF5 /* InfoPlist.strings */,
+				BCFF007319CC20B800739DF5 /* main.m */,
+				BCFF007519CC20B800739DF5 /* JSon解析-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCFF008619CC20B800739DF5 /* JSon解析Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF008C19CC20B800739DF5 /* JSon__Tests.m */,
+				BCFF008719CC20B800739DF5 /* Supporting Files */,
+			);
+			path = "JSon解析Tests";
+			sourceTree = "<group>";
+		};
+		BCFF008719CC20B800739DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF008819CC20B800739DF5 /* JSon解析Tests-Info.plist */,
+				BCFF008919CC20B800739DF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCFF006319CC20B800739DF5 /* JSon解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFF009019CC20B900739DF5 /* Build configuration list for PBXNativeTarget "JSon解析" */;
+			buildPhases = (
+				BCFF006019CC20B800739DF5 /* Sources */,
+				BCFF006119CC20B800739DF5 /* Frameworks */,
+				BCFF006219CC20B800739DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSon解析";
+			productName = "JSon解析";
+			productReference = BCFF006419CC20B800739DF5 /* JSon解析.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCFF007E19CC20B800739DF5 /* JSon解析Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFF009319CC20B900739DF5 /* Build configuration list for PBXNativeTarget "JSon解析Tests" */;
+			buildPhases = (
+				BCFF007B19CC20B800739DF5 /* Sources */,
+				BCFF007C19CC20B800739DF5 /* Frameworks */,
+				BCFF007D19CC20B800739DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFF008519CC20B800739DF5 /* PBXTargetDependency */,
+			);
+			name = "JSon解析Tests";
+			productName = "JSon解析Tests";
+			productReference = BCFF007F19CC20B800739DF5 /* JSon解析Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCFF005C19CC20B800739DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BCFF007E19CC20B800739DF5 = {
+						TestTargetID = BCFF006319CC20B800739DF5;
+					};
+				};
+			};
+			buildConfigurationList = BCFF005F19CC20B800739DF5 /* Build configuration list for PBXProject "JSon解析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCFF005B19CC20B800739DF5;
+			productRefGroup = BCFF006519CC20B800739DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCFF006319CC20B800739DF5 /* JSon解析 */,
+				BCFF007E19CC20B800739DF5 /* JSon解析Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCFF006219CC20B800739DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF007219CC20B800739DF5 /* InfoPlist.strings in Resources */,
+				BCFF007A19CC20B800739DF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFF007D19CC20B800739DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF008B19CC20B800739DF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCFF006019CC20B800739DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF007819CC20B800739DF5 /* AppDelegate.m in Sources */,
+				BCFF007419CC20B800739DF5 /* main.m in Sources */,
+				BCFF009819CC20F300739DF5 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFF007B19CC20B800739DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFF008D19CC20B800739DF5 /* JSon__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCFF008519CC20B800739DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFF006319CC20B800739DF5 /* JSon解析 */;
+			targetProxy = BCFF008419CC20B800739DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCFF007019CC20B800739DF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFF007119CC20B800739DF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCFF008919CC20B800739DF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFF008A19CC20B800739DF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCFF008E19CC20B900739DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCFF008F19CC20B900739DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCFF009119CC20B900739DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSon解析/JSon解析-Prefix.pch";
+				INFOPLIST_FILE = "JSon解析/JSon解析-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCFF009219CC20B900739DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSon解析/JSon解析-Prefix.pch";
+				INFOPLIST_FILE = "JSon解析/JSon解析-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCFF009419CC20B900739DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSon解析.app/JSon解析";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSon解析/JSon解析-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSon解析Tests/JSon解析Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCFF009519CC20B900739DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSon解析.app/JSon解析";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSon解析/JSon解析-Prefix.pch";
+				INFOPLIST_FILE = "JSon解析Tests/JSon解析Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCFF005F19CC20B800739DF5 /* Build configuration list for PBXProject "JSon解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFF008E19CC20B900739DF5 /* Debug */,
+				BCFF008F19CC20B900739DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFF009019CC20B900739DF5 /* Build configuration list for PBXNativeTarget "JSon解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFF009119CC20B900739DF5 /* Debug */,
+				BCFF009219CC20B900739DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCFF009319CC20B900739DF5 /* Build configuration list for PBXNativeTarget "JSon解析Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFF009419CC20B900739DF5 /* Debug */,
+				BCFF009519CC20B900739DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCFF005C19CC20B800739DF5 /* Project object */;
+}

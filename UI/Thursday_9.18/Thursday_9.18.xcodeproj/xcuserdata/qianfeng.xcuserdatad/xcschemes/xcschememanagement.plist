@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Thursday_9.18.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>UITableView_Cell定制1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>UITableView_Cell定制2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BC187AC619CAA21F00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC187AE119CAA21F00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC187B0619CABD8C00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC187B1C19CABD8D00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC187B7819CAE20E00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC187B8E19CAE20E00C61E03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

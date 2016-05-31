@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1C59FD19E785BE008443DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C59FC19E785BE008443DB /* Foundation.framework */; };
+		BC1C59FF19E785BE008443DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C59FE19E785BE008443DB /* CoreGraphics.framework */; };
+		BC1C5A0119E785BE008443DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C5A0019E785BE008443DB /* UIKit.framework */; };
+		BC1C5A0719E785BF008443DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1C5A0519E785BF008443DB /* InfoPlist.strings */; };
+		BC1C5A0919E785BF008443DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5A0819E785BF008443DB /* main.m */; };
+		BC1C5A0D19E785BF008443DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5A0C19E785BF008443DB /* AppDelegate.m */; };
+		BC1C5A1019E785BF008443DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1C5A0E19E785BF008443DB /* Main.storyboard */; };
+		BC1C5A1319E785BF008443DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5A1219E785BF008443DB /* ViewController.m */; };
+		BC1C5A1519E785BF008443DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1C5A1419E785BF008443DB /* Images.xcassets */; };
+		BC1C5A1C19E785BF008443DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C5A1B19E785BF008443DB /* XCTest.framework */; };
+		BC1C5A1D19E785BF008443DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C59FC19E785BE008443DB /* Foundation.framework */; };
+		BC1C5A1E19E785BF008443DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1C5A0019E785BE008443DB /* UIKit.framework */; };
+		BC1C5A2619E785BF008443DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1C5A2419E785BF008443DB /* InfoPlist.strings */; };
+		BC1C5A2819E785BF008443DB /* PageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5A2719E785BF008443DB /* PageViewControllerTests.m */; };
+		BC1C5A3319E786DE008443DB /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C5A3219E786DE008443DB /* SubViewController.m */; };
+		BC1C5A3519E78AF1008443DB /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC1C5A3419E78AF1008443DB /* book.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1C5A1F19E785BF008443DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1C59F119E785BE008443DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1C59F819E785BE008443DB;
+			remoteInfo = PageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC1C59F919E785BE008443DB /* PageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1C59FC19E785BE008443DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC1C59FE19E785BE008443DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC1C5A0019E785BE008443DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC1C5A0419E785BE008443DB /* PageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageViewController-Info.plist"; sourceTree = "<group>"; };
+		BC1C5A0619E785BF008443DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC1C5A0819E785BF008443DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC1C5A0A19E785BF008443DB /* PageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		BC1C5A0B19E785BF008443DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC1C5A0C19E785BF008443DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC1C5A0F19E785BF008443DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC1C5A1119E785BF008443DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC1C5A1219E785BF008443DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC1C5A1419E785BF008443DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC1C5A1A19E785BF008443DB /* PageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1C5A1B19E785BF008443DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC1C5A2319E785BF008443DB /* PageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		BC1C5A2519E785BF008443DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC1C5A2719E785BF008443DB /* PageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerTests.m; sourceTree = "<group>"; };
+		BC1C5A3119E786DE008443DB /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		BC1C5A3219E786DE008443DB /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		BC1C5A3419E78AF1008443DB /* book.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1C59F619E785BE008443DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C59FF19E785BE008443DB /* CoreGraphics.framework in Frameworks */,
+				BC1C5A0119E785BE008443DB /* UIKit.framework in Frameworks */,
+				BC1C59FD19E785BE008443DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1C5A1719E785BF008443DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C5A1C19E785BF008443DB /* XCTest.framework in Frameworks */,
+				BC1C5A1E19E785BF008443DB /* UIKit.framework in Frameworks */,
+				BC1C5A1D19E785BF008443DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1C59F019E785BE008443DB = {
+			isa = PBXGroup;
+			children = (
+				BC1C5A3419E78AF1008443DB /* book.txt */,
+				BC1C5A3119E786DE008443DB /* SubViewController.h */,
+				BC1C5A3219E786DE008443DB /* SubViewController.m */,
+				BC1C5A0219E785BE008443DB /* PageViewController */,
+				BC1C5A2119E785BF008443DB /* PageViewControllerTests */,
+				BC1C59FB19E785BE008443DB /* Frameworks */,
+				BC1C59FA19E785BE008443DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1C59FA19E785BE008443DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C59F919E785BE008443DB /* PageViewController.app */,
+				BC1C5A1A19E785BF008443DB /* PageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1C59FB19E785BE008443DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C59FC19E785BE008443DB /* Foundation.framework */,
+				BC1C59FE19E785BE008443DB /* CoreGraphics.framework */,
+				BC1C5A0019E785BE008443DB /* UIKit.framework */,
+				BC1C5A1B19E785BF008443DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1C5A0219E785BE008443DB /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C5A0B19E785BF008443DB /* AppDelegate.h */,
+				BC1C5A0C19E785BF008443DB /* AppDelegate.m */,
+				BC1C5A0E19E785BF008443DB /* Main.storyboard */,
+				BC1C5A1119E785BF008443DB /* ViewController.h */,
+				BC1C5A1219E785BF008443DB /* ViewController.m */,
+				BC1C5A1419E785BF008443DB /* Images.xcassets */,
+				BC1C5A0319E785BE008443DB /* Supporting Files */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		BC1C5A0319E785BE008443DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C5A0419E785BE008443DB /* PageViewController-Info.plist */,
+				BC1C5A0519E785BF008443DB /* InfoPlist.strings */,
+				BC1C5A0819E785BF008443DB /* main.m */,
+				BC1C5A0A19E785BF008443DB /* PageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC1C5A2119E785BF008443DB /* PageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C5A2719E785BF008443DB /* PageViewControllerTests.m */,
+				BC1C5A2219E785BF008443DB /* Supporting Files */,
+			);
+			path = PageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		BC1C5A2219E785BF008443DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C5A2319E785BF008443DB /* PageViewControllerTests-Info.plist */,
+				BC1C5A2419E785BF008443DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1C59F819E785BE008443DB /* PageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1C5A2B19E785BF008443DB /* Build configuration list for PBXNativeTarget "PageViewController" */;
+			buildPhases = (
+				BC1C59F519E785BE008443DB /* Sources */,
+				BC1C59F619E785BE008443DB /* Frameworks */,
+				BC1C59F719E785BE008443DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageViewController;
+			productName = PageViewController;
+			productReference = BC1C59F919E785BE008443DB /* PageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1C5A1919E785BF008443DB /* PageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1C5A2E19E785BF008443DB /* Build configuration list for PBXNativeTarget "PageViewControllerTests" */;
+			buildPhases = (
+				BC1C5A1619E785BF008443DB /* Sources */,
+				BC1C5A1719E785BF008443DB /* Frameworks */,
+				BC1C5A1819E785BF008443DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1C5A2019E785BF008443DB /* PBXTargetDependency */,
+			);
+			name = PageViewControllerTests;
+			productName = PageViewControllerTests;
+			productReference = BC1C5A1A19E785BF008443DB /* PageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1C59F119E785BE008443DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BC1C5A1919E785BF008443DB = {
+						TestTargetID = BC1C59F819E785BE008443DB;
+					};
+				};
+			};
+			buildConfigurationList = BC1C59F419E785BE008443DB /* Build configuration list for PBXProject "PageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1C59F019E785BE008443DB;
+			productRefGroup = BC1C59FA19E785BE008443DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1C59F819E785BE008443DB /* PageViewController */,
+				BC1C5A1919E785BF008443DB /* PageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1C59F719E785BE008443DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C5A1519E785BF008443DB /* Images.xcassets in Resources */,
+				BC1C5A3519E78AF1008443DB /* book.txt in Resources */,
+				BC1C5A0719E785BF008443DB /* InfoPlist.strings in Resources */,
+				BC1C5A1019E785BF008443DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1C5A1819E785BF008443DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C5A2619E785BF008443DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1C59F519E785BE008443DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C5A1319E785BF008443DB /* ViewController.m in Sources */,
+				BC1C5A0D19E785BF008443DB /* AppDelegate.m in Sources */,
+				BC1C5A0919E785BF008443DB /* main.m in Sources */,
+				BC1C5A3319E786DE008443DB /* SubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1C5A1619E785BF008443DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1C5A2819E785BF008443DB /* PageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1C5A2019E785BF008443DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1C59F819E785BE008443DB /* PageViewController */;
+			targetProxy = BC1C5A1F19E785BF008443DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1C5A0519E785BF008443DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1C5A0619E785BF008443DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC1C5A0E19E785BF008443DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1C5A0F19E785BF008443DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC1C5A2419E785BF008443DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1C5A2519E785BF008443DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1C5A2919E785BF008443DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC1C5A2A19E785BF008443DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1C5A2C19E785BF008443DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewController/PageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC1C5A2D19E785BF008443DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewController/PageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC1C5A2F19E785BF008443DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageViewController.app/PageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PageViewControllerTests/PageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC1C5A3019E785BF008443DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PageViewController.app/PageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageViewController/PageViewController-Prefix.pch";
+				INFOPLIST_FILE = "PageViewControllerTests/PageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1C59F419E785BE008443DB /* Build configuration list for PBXProject "PageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1C5A2919E785BF008443DB /* Debug */,
+				BC1C5A2A19E785BF008443DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1C5A2B19E785BF008443DB /* Build configuration list for PBXNativeTarget "PageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1C5A2C19E785BF008443DB /* Debug */,
+				BC1C5A2D19E785BF008443DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC1C5A2E19E785BF008443DB /* Build configuration list for PBXNativeTarget "PageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1C5A2F19E785BF008443DB /* Debug */,
+				BC1C5A3019E785BF008443DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1C59F119E785BE008443DB /* Project object */;
+}

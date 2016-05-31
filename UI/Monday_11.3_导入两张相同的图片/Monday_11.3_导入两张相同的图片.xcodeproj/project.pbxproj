@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAFEB0C1A0779250065A2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB0B1A0779250065A2C7 /* Foundation.framework */; };
+		BCAFEB0E1A0779250065A2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB0D1A0779250065A2C7 /* CoreGraphics.framework */; };
+		BCAFEB101A0779250065A2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB0F1A0779250065A2C7 /* UIKit.framework */; };
+		BCAFEB161A0779250065A2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAFEB141A0779250065A2C7 /* InfoPlist.strings */; };
+		BCAFEB181A0779250065A2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFEB171A0779250065A2C7 /* main.m */; };
+		BCAFEB1C1A0779250065A2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFEB1B1A0779250065A2C7 /* AppDelegate.m */; };
+		BCAFEB1F1A0779250065A2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAFEB1D1A0779250065A2C7 /* Main.storyboard */; };
+		BCAFEB221A0779250065A2C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFEB211A0779250065A2C7 /* ViewController.m */; };
+		BCAFEB241A0779250065A2C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAFEB231A0779250065A2C7 /* Images.xcassets */; };
+		BCAFEB2B1A0779250065A2C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB2A1A0779250065A2C7 /* XCTest.framework */; };
+		BCAFEB2C1A0779260065A2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB0B1A0779250065A2C7 /* Foundation.framework */; };
+		BCAFEB2D1A0779260065A2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFEB0F1A0779250065A2C7 /* UIKit.framework */; };
+		BCAFEB351A0779260065A2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAFEB331A0779260065A2C7 /* InfoPlist.strings */; };
+		BCAFEB371A0779260065A2C7 /* Monday_11_3__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFEB361A0779260065A2C7 /* Monday_11_3__________Tests.m */; };
+		BCAFEB411A0779570065A2C7 /* 首页-搜索-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAFEB401A0779570065A2C7 /* 首页-搜索-选.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAFEB2E1A0779260065A2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAFEB001A0779250065A2C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAFEB071A0779250065A2C7;
+			remoteInfo = "Monday_11.3_导入两张相同的图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAFEB081A0779250065A2C7 /* Monday_11.3_导入两张相同的图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monday_11.3_导入两张相同的图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAFEB0B1A0779250065A2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCAFEB0D1A0779250065A2C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCAFEB0F1A0779250065A2C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCAFEB131A0779250065A2C7 /* Monday_11.3_导入两张相同的图片-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monday_11.3_导入两张相同的图片-Info.plist"; sourceTree = "<group>"; };
+		BCAFEB151A0779250065A2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAFEB171A0779250065A2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAFEB191A0779250065A2C7 /* Monday_11.3_导入两张相同的图片-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monday_11.3_导入两张相同的图片-Prefix.pch"; sourceTree = "<group>"; };
+		BCAFEB1A1A0779250065A2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCAFEB1B1A0779250065A2C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCAFEB1E1A0779250065A2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAFEB201A0779250065A2C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCAFEB211A0779250065A2C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCAFEB231A0779250065A2C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCAFEB291A0779250065A2C7 /* Monday_11.3_导入两张相同的图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monday_11.3_导入两张相同的图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAFEB2A1A0779250065A2C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCAFEB321A0779260065A2C7 /* Monday_11.3_导入两张相同的图片Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monday_11.3_导入两张相同的图片Tests-Info.plist"; sourceTree = "<group>"; };
+		BCAFEB341A0779260065A2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAFEB361A0779260065A2C7 /* Monday_11_3__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Monday_11_3__________Tests.m"; sourceTree = "<group>"; };
+		BCAFEB401A0779570065A2C7 /* 首页-搜索-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "首页-搜索-选.png"; path = "../../掌厨Souce/掌厨picture2/首页-搜索-选.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAFEB051A0779250065A2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB0E1A0779250065A2C7 /* CoreGraphics.framework in Frameworks */,
+				BCAFEB101A0779250065A2C7 /* UIKit.framework in Frameworks */,
+				BCAFEB0C1A0779250065A2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAFEB261A0779250065A2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB2B1A0779250065A2C7 /* XCTest.framework in Frameworks */,
+				BCAFEB2D1A0779260065A2C7 /* UIKit.framework in Frameworks */,
+				BCAFEB2C1A0779260065A2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAFEAFF1A0779250065A2C7 = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB401A0779570065A2C7 /* 首页-搜索-选.png */,
+				BCAFEB111A0779250065A2C7 /* Monday_11.3_导入两张相同的图片 */,
+				BCAFEB301A0779260065A2C7 /* Monday_11.3_导入两张相同的图片Tests */,
+				BCAFEB0A1A0779250065A2C7 /* Frameworks */,
+				BCAFEB091A0779250065A2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAFEB091A0779250065A2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB081A0779250065A2C7 /* Monday_11.3_导入两张相同的图片.app */,
+				BCAFEB291A0779250065A2C7 /* Monday_11.3_导入两张相同的图片Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAFEB0A1A0779250065A2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB0B1A0779250065A2C7 /* Foundation.framework */,
+				BCAFEB0D1A0779250065A2C7 /* CoreGraphics.framework */,
+				BCAFEB0F1A0779250065A2C7 /* UIKit.framework */,
+				BCAFEB2A1A0779250065A2C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAFEB111A0779250065A2C7 /* Monday_11.3_导入两张相同的图片 */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB1A1A0779250065A2C7 /* AppDelegate.h */,
+				BCAFEB1B1A0779250065A2C7 /* AppDelegate.m */,
+				BCAFEB1D1A0779250065A2C7 /* Main.storyboard */,
+				BCAFEB201A0779250065A2C7 /* ViewController.h */,
+				BCAFEB211A0779250065A2C7 /* ViewController.m */,
+				BCAFEB231A0779250065A2C7 /* Images.xcassets */,
+				BCAFEB121A0779250065A2C7 /* Supporting Files */,
+			);
+			path = "Monday_11.3_导入两张相同的图片";
+			sourceTree = "<group>";
+		};
+		BCAFEB121A0779250065A2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB131A0779250065A2C7 /* Monday_11.3_导入两张相同的图片-Info.plist */,
+				BCAFEB141A0779250065A2C7 /* InfoPlist.strings */,
+				BCAFEB171A0779250065A2C7 /* main.m */,
+				BCAFEB191A0779250065A2C7 /* Monday_11.3_导入两张相同的图片-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAFEB301A0779260065A2C7 /* Monday_11.3_导入两张相同的图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB361A0779260065A2C7 /* Monday_11_3__________Tests.m */,
+				BCAFEB311A0779260065A2C7 /* Supporting Files */,
+			);
+			path = "Monday_11.3_导入两张相同的图片Tests";
+			sourceTree = "<group>";
+		};
+		BCAFEB311A0779260065A2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFEB321A0779260065A2C7 /* Monday_11.3_导入两张相同的图片Tests-Info.plist */,
+				BCAFEB331A0779260065A2C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAFEB071A0779250065A2C7 /* Monday_11.3_导入两张相同的图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAFEB3A1A0779260065A2C7 /* Build configuration list for PBXNativeTarget "Monday_11.3_导入两张相同的图片" */;
+			buildPhases = (
+				BCAFEB041A0779250065A2C7 /* Sources */,
+				BCAFEB051A0779250065A2C7 /* Frameworks */,
+				BCAFEB061A0779250065A2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monday_11.3_导入两张相同的图片";
+			productName = "Monday_11.3_导入两张相同的图片";
+			productReference = BCAFEB081A0779250065A2C7 /* Monday_11.3_导入两张相同的图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAFEB281A0779250065A2C7 /* Monday_11.3_导入两张相同的图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAFEB3D1A0779260065A2C7 /* Build configuration list for PBXNativeTarget "Monday_11.3_导入两张相同的图片Tests" */;
+			buildPhases = (
+				BCAFEB251A0779250065A2C7 /* Sources */,
+				BCAFEB261A0779250065A2C7 /* Frameworks */,
+				BCAFEB271A0779250065A2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAFEB2F1A0779260065A2C7 /* PBXTargetDependency */,
+			);
+			name = "Monday_11.3_导入两张相同的图片Tests";
+			productName = "Monday_11.3_导入两张相同的图片Tests";
+			productReference = BCAFEB291A0779250065A2C7 /* Monday_11.3_导入两张相同的图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAFEB001A0779250065A2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BCAFEB281A0779250065A2C7 = {
+						TestTargetID = BCAFEB071A0779250065A2C7;
+					};
+				};
+			};
+			buildConfigurationList = BCAFEB031A0779250065A2C7 /* Build configuration list for PBXProject "Monday_11.3_导入两张相同的图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAFEAFF1A0779250065A2C7;
+			productRefGroup = BCAFEB091A0779250065A2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAFEB071A0779250065A2C7 /* Monday_11.3_导入两张相同的图片 */,
+				BCAFEB281A0779250065A2C7 /* Monday_11.3_导入两张相同的图片Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAFEB061A0779250065A2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB241A0779250065A2C7 /* Images.xcassets in Resources */,
+				BCAFEB161A0779250065A2C7 /* InfoPlist.strings in Resources */,
+				BCAFEB411A0779570065A2C7 /* 首页-搜索-选.png in Resources */,
+				BCAFEB1F1A0779250065A2C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAFEB271A0779250065A2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB351A0779260065A2C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAFEB041A0779250065A2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB221A0779250065A2C7 /* ViewController.m in Sources */,
+				BCAFEB1C1A0779250065A2C7 /* AppDelegate.m in Sources */,
+				BCAFEB181A0779250065A2C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAFEB251A0779250065A2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAFEB371A0779260065A2C7 /* Monday_11_3__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAFEB2F1A0779260065A2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAFEB071A0779250065A2C7 /* Monday_11.3_导入两张相同的图片 */;
+			targetProxy = BCAFEB2E1A0779260065A2C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAFEB141A0779250065A2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAFEB151A0779250065A2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCAFEB1D1A0779250065A2C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAFEB1E1A0779250065A2C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAFEB331A0779260065A2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAFEB341A0779260065A2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAFEB381A0779260065A2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAFEB391A0779260065A2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAFEB3B1A0779260065A2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Prefix.pch";
+				INFOPLIST_FILE = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCAFEB3C1A0779260065A2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Prefix.pch";
+				INFOPLIST_FILE = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCAFEB3E1A0779260065A2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monday_11.3_导入两张相同的图片.app/Monday_11.3_导入两张相同的图片";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Monday_11.3_导入两张相同的图片Tests/Monday_11.3_导入两张相同的图片Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCAFEB3F1A0779260065A2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Monday_11.3_导入两张相同的图片.app/Monday_11.3_导入两张相同的图片";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monday_11.3_导入两张相同的图片/Monday_11.3_导入两张相同的图片-Prefix.pch";
+				INFOPLIST_FILE = "Monday_11.3_导入两张相同的图片Tests/Monday_11.3_导入两张相同的图片Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAFEB031A0779250065A2C7 /* Build configuration list for PBXProject "Monday_11.3_导入两张相同的图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAFEB381A0779260065A2C7 /* Debug */,
+				BCAFEB391A0779260065A2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAFEB3A1A0779260065A2C7 /* Build configuration list for PBXNativeTarget "Monday_11.3_导入两张相同的图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAFEB3B1A0779260065A2C7 /* Debug */,
+				BCAFEB3C1A0779260065A2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCAFEB3D1A0779260065A2C7 /* Build configuration list for PBXNativeTarget "Monday_11.3_导入两张相同的图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAFEB3E1A0779260065A2C7 /* Debug */,
+				BCAFEB3F1A0779260065A2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAFEB001A0779250065A2C7 /* Project object */;
+}

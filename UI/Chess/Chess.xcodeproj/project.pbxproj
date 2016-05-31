@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA8F03319F29ADD004BF84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F03219F29ADD004BF84E /* Foundation.framework */; };
+		BCA8F03519F29ADD004BF84E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F03419F29ADD004BF84E /* CoreGraphics.framework */; };
+		BCA8F03719F29ADD004BF84E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F03619F29ADD004BF84E /* UIKit.framework */; };
+		BCA8F03D19F29ADD004BF84E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA8F03B19F29ADD004BF84E /* InfoPlist.strings */; };
+		BCA8F03F19F29ADD004BF84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8F03E19F29ADD004BF84E /* main.m */; };
+		BCA8F04319F29ADD004BF84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8F04219F29ADD004BF84E /* AppDelegate.m */; };
+		BCA8F04519F29ADD004BF84E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA8F04419F29ADD004BF84E /* Images.xcassets */; };
+		BCA8F04C19F29ADD004BF84E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F04B19F29ADD004BF84E /* XCTest.framework */; };
+		BCA8F04D19F29ADD004BF84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F03219F29ADD004BF84E /* Foundation.framework */; };
+		BCA8F04E19F29ADD004BF84E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA8F03619F29ADD004BF84E /* UIKit.framework */; };
+		BCA8F05619F29ADD004BF84E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA8F05419F29ADD004BF84E /* InfoPlist.strings */; };
+		BCA8F05819F29ADD004BF84E /* ChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8F05719F29ADD004BF84E /* ChessTests.m */; };
+		BCEEF92219F34E74000573AC /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEEF92119F34E74000573AC /* MyButton.m */; };
+		BCEEF92519F35138000573AC /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEEF92419F35138000573AC /* ChessView.m */; };
+		BCEEF93119F35C13000573AC /* blackche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF92B19F35C13000573AC /* blackche.jpg */; };
+		BCEEF93219F35C13000573AC /* blackjiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF92C19F35C13000573AC /* blackjiang.jpg */; };
+		BCEEF93319F35C13000573AC /* redche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF92D19F35C13000573AC /* redche.jpg */; };
+		BCEEF93419F35C13000573AC /* redche1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF92E19F35C13000573AC /* redche1.jpg */; };
+		BCEEF93519F35C13000573AC /* redjiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF92F19F35C13000573AC /* redjiang.jpg */; };
+		BCEEF93619F35C13000573AC /* 象棋棋盘1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEEF93019F35C13000573AC /* 象棋棋盘1.jpg */; };
+		BCEEF93919F35F01000573AC /* ChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEEF93819F35F01000573AC /* ChessPiece.m */; };
+		BCEFDB0219F367440037DF11 /* JiangChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFDB0119F367440037DF11 /* JiangChessPiece.m */; };
+		BCEFDB0519F36A720037DF11 /* ShuaiChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFDB0419F36A720037DF11 /* ShuaiChessPiece.m */; };
+		BCEFDB0819F370F00037DF11 /* CheChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFDB0719F370F00037DF11 /* CheChessPiece.m */; };
+		BCEFDB0B19F371930037DF11 /* JuChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFDB0A19F371930037DF11 /* JuChessPiece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA8F04F19F29ADD004BF84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA8F02719F29ADC004BF84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA8F02E19F29ADD004BF84E;
+			remoteInfo = Chess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA8F02F19F29ADD004BF84E /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8F03219F29ADD004BF84E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCA8F03419F29ADD004BF84E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCA8F03619F29ADD004BF84E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCA8F03A19F29ADD004BF84E /* Chess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chess-Info.plist"; sourceTree = "<group>"; };
+		BCA8F03C19F29ADD004BF84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA8F03E19F29ADD004BF84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA8F04019F29ADD004BF84E /* Chess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chess-Prefix.pch"; sourceTree = "<group>"; };
+		BCA8F04119F29ADD004BF84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCA8F04219F29ADD004BF84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCA8F04419F29ADD004BF84E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCA8F04A19F29ADD004BF84E /* ChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8F04B19F29ADD004BF84E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCA8F05319F29ADD004BF84E /* ChessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChessTests-Info.plist"; sourceTree = "<group>"; };
+		BCA8F05519F29ADD004BF84E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA8F05719F29ADD004BF84E /* ChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessTests.m; sourceTree = "<group>"; };
+		BCEEF92019F34E74000573AC /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		BCEEF92119F34E74000573AC /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		BCEEF92319F35138000573AC /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		BCEEF92419F35138000573AC /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		BCEEF92B19F35C13000573AC /* blackche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackche.jpg; sourceTree = "<group>"; };
+		BCEEF92C19F35C13000573AC /* blackjiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackjiang.jpg; sourceTree = "<group>"; };
+		BCEEF92D19F35C13000573AC /* redche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redche.jpg; sourceTree = "<group>"; };
+		BCEEF92E19F35C13000573AC /* redche1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redche1.jpg; sourceTree = "<group>"; };
+		BCEEF92F19F35C13000573AC /* redjiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redjiang.jpg; sourceTree = "<group>"; };
+		BCEEF93019F35C13000573AC /* 象棋棋盘1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "象棋棋盘1.jpg"; sourceTree = "<group>"; };
+		BCEEF93719F35F01000573AC /* ChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPiece.h; sourceTree = "<group>"; };
+		BCEEF93819F35F01000573AC /* ChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessPiece.m; sourceTree = "<group>"; };
+		BCEFDB0019F367440037DF11 /* JiangChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiangChessPiece.h; sourceTree = "<group>"; };
+		BCEFDB0119F367440037DF11 /* JiangChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiangChessPiece.m; sourceTree = "<group>"; };
+		BCEFDB0319F36A720037DF11 /* ShuaiChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShuaiChessPiece.h; sourceTree = "<group>"; };
+		BCEFDB0419F36A720037DF11 /* ShuaiChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShuaiChessPiece.m; sourceTree = "<group>"; };
+		BCEFDB0619F370F00037DF11 /* CheChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheChessPiece.h; sourceTree = "<group>"; };
+		BCEFDB0719F370F00037DF11 /* CheChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheChessPiece.m; sourceTree = "<group>"; };
+		BCEFDB0919F371930037DF11 /* JuChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuChessPiece.h; sourceTree = "<group>"; };
+		BCEFDB0A19F371930037DF11 /* JuChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuChessPiece.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA8F02C19F29ADD004BF84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8F03519F29ADD004BF84E /* CoreGraphics.framework in Frameworks */,
+				BCA8F03719F29ADD004BF84E /* UIKit.framework in Frameworks */,
+				BCA8F03319F29ADD004BF84E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA8F04719F29ADD004BF84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8F04C19F29ADD004BF84E /* XCTest.framework in Frameworks */,
+				BCA8F04E19F29ADD004BF84E /* UIKit.framework in Frameworks */,
+				BCA8F04D19F29ADD004BF84E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA8F02619F29ADC004BF84E = {
+			isa = PBXGroup;
+			children = (
+				BCEEF92A19F35C13000573AC /* source */,
+				BCA8F03819F29ADD004BF84E /* Chess */,
+				BCA8F05119F29ADD004BF84E /* ChessTests */,
+				BCA8F03119F29ADD004BF84E /* Frameworks */,
+				BCA8F03019F29ADD004BF84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA8F03019F29ADD004BF84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F02F19F29ADD004BF84E /* Chess.app */,
+				BCA8F04A19F29ADD004BF84E /* ChessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA8F03119F29ADD004BF84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F03219F29ADD004BF84E /* Foundation.framework */,
+				BCA8F03419F29ADD004BF84E /* CoreGraphics.framework */,
+				BCA8F03619F29ADD004BF84E /* UIKit.framework */,
+				BCA8F04B19F29ADD004BF84E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA8F03819F29ADD004BF84E /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F04119F29ADD004BF84E /* AppDelegate.h */,
+				BCA8F04219F29ADD004BF84E /* AppDelegate.m */,
+				BCEEF92019F34E74000573AC /* MyButton.h */,
+				BCEEF92119F34E74000573AC /* MyButton.m */,
+				BCEEF92319F35138000573AC /* ChessView.h */,
+				BCEEF92419F35138000573AC /* ChessView.m */,
+				BCEEF93719F35F01000573AC /* ChessPiece.h */,
+				BCEEF93819F35F01000573AC /* ChessPiece.m */,
+				BCEFDB0019F367440037DF11 /* JiangChessPiece.h */,
+				BCEFDB0119F367440037DF11 /* JiangChessPiece.m */,
+				BCEFDB0319F36A720037DF11 /* ShuaiChessPiece.h */,
+				BCEFDB0419F36A720037DF11 /* ShuaiChessPiece.m */,
+				BCEFDB0619F370F00037DF11 /* CheChessPiece.h */,
+				BCEFDB0719F370F00037DF11 /* CheChessPiece.m */,
+				BCEFDB0919F371930037DF11 /* JuChessPiece.h */,
+				BCEFDB0A19F371930037DF11 /* JuChessPiece.m */,
+				BCA8F04419F29ADD004BF84E /* Images.xcassets */,
+				BCA8F03919F29ADD004BF84E /* Supporting Files */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
+		BCA8F03919F29ADD004BF84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F03A19F29ADD004BF84E /* Chess-Info.plist */,
+				BCA8F03B19F29ADD004BF84E /* InfoPlist.strings */,
+				BCA8F03E19F29ADD004BF84E /* main.m */,
+				BCA8F04019F29ADD004BF84E /* Chess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA8F05119F29ADD004BF84E /* ChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F05719F29ADD004BF84E /* ChessTests.m */,
+				BCA8F05219F29ADD004BF84E /* Supporting Files */,
+			);
+			path = ChessTests;
+			sourceTree = "<group>";
+		};
+		BCA8F05219F29ADD004BF84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8F05319F29ADD004BF84E /* ChessTests-Info.plist */,
+				BCA8F05419F29ADD004BF84E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCEEF92A19F35C13000573AC /* source */ = {
+			isa = PBXGroup;
+			children = (
+				BCEEF92B19F35C13000573AC /* blackche.jpg */,
+				BCEEF92C19F35C13000573AC /* blackjiang.jpg */,
+				BCEEF92D19F35C13000573AC /* redche.jpg */,
+				BCEEF92E19F35C13000573AC /* redche1.jpg */,
+				BCEEF92F19F35C13000573AC /* redjiang.jpg */,
+				BCEEF93019F35C13000573AC /* 象棋棋盘1.jpg */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA8F02E19F29ADD004BF84E /* Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA8F05B19F29ADD004BF84E /* Build configuration list for PBXNativeTarget "Chess" */;
+			buildPhases = (
+				BCA8F02B19F29ADD004BF84E /* Sources */,
+				BCA8F02C19F29ADD004BF84E /* Frameworks */,
+				BCA8F02D19F29ADD004BF84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chess;
+			productName = Chess;
+			productReference = BCA8F02F19F29ADD004BF84E /* Chess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA8F04919F29ADD004BF84E /* ChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA8F05E19F29ADD004BF84E /* Build configuration list for PBXNativeTarget "ChessTests" */;
+			buildPhases = (
+				BCA8F04619F29ADD004BF84E /* Sources */,
+				BCA8F04719F29ADD004BF84E /* Frameworks */,
+				BCA8F04819F29ADD004BF84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA8F05019F29ADD004BF84E /* PBXTargetDependency */,
+			);
+			name = ChessTests;
+			productName = ChessTests;
+			productReference = BCA8F04A19F29ADD004BF84E /* ChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA8F02719F29ADC004BF84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BCA8F04919F29ADD004BF84E = {
+						TestTargetID = BCA8F02E19F29ADD004BF84E;
+					};
+				};
+			};
+			buildConfigurationList = BCA8F02A19F29ADC004BF84E /* Build configuration list for PBXProject "Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCA8F02619F29ADC004BF84E;
+			productRefGroup = BCA8F03019F29ADD004BF84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA8F02E19F29ADD004BF84E /* Chess */,
+				BCA8F04919F29ADD004BF84E /* ChessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA8F02D19F29ADD004BF84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEEF93619F35C13000573AC /* 象棋棋盘1.jpg in Resources */,
+				BCEEF93319F35C13000573AC /* redche.jpg in Resources */,
+				BCEEF93119F35C13000573AC /* blackche.jpg in Resources */,
+				BCEEF93419F35C13000573AC /* redche1.jpg in Resources */,
+				BCA8F03D19F29ADD004BF84E /* InfoPlist.strings in Resources */,
+				BCA8F04519F29ADD004BF84E /* Images.xcassets in Resources */,
+				BCEEF93519F35C13000573AC /* redjiang.jpg in Resources */,
+				BCEEF93219F35C13000573AC /* blackjiang.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA8F04819F29ADD004BF84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8F05619F29ADD004BF84E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA8F02B19F29ADD004BF84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEEF92219F34E74000573AC /* MyButton.m in Sources */,
+				BCA8F04319F29ADD004BF84E /* AppDelegate.m in Sources */,
+				BCA8F03F19F29ADD004BF84E /* main.m in Sources */,
+				BCEFDB0219F367440037DF11 /* JiangChessPiece.m in Sources */,
+				BCEEF93919F35F01000573AC /* ChessPiece.m in Sources */,
+				BCEFDB0519F36A720037DF11 /* ShuaiChessPiece.m in Sources */,
+				BCEFDB0819F370F00037DF11 /* CheChessPiece.m in Sources */,
+				BCEFDB0B19F371930037DF11 /* JuChessPiece.m in Sources */,
+				BCEEF92519F35138000573AC /* ChessView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA8F04619F29ADD004BF84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA8F05819F29ADD004BF84E /* ChessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA8F05019F29ADD004BF84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA8F02E19F29ADD004BF84E /* Chess */;
+			targetProxy = BCA8F04F19F29ADD004BF84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA8F03B19F29ADD004BF84E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA8F03C19F29ADD004BF84E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCA8F05419F29ADD004BF84E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA8F05519F29ADD004BF84E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA8F05919F29ADD004BF84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCA8F05A19F29ADD004BF84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA8F05C19F29ADD004BF84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chess/Chess-Prefix.pch";
+				INFOPLIST_FILE = "Chess/Chess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCA8F05D19F29ADD004BF84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chess/Chess-Prefix.pch";
+				INFOPLIST_FILE = "Chess/Chess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCA8F05F19F29ADD004BF84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chess.app/Chess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chess/Chess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChessTests/ChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCA8F06019F29ADD004BF84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chess.app/Chess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chess/Chess-Prefix.pch";
+				INFOPLIST_FILE = "ChessTests/ChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA8F02A19F29ADC004BF84E /* Build configuration list for PBXProject "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA8F05919F29ADD004BF84E /* Debug */,
+				BCA8F05A19F29ADD004BF84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA8F05B19F29ADD004BF84E /* Build configuration list for PBXNativeTarget "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA8F05C19F29ADD004BF84E /* Debug */,
+				BCA8F05D19F29ADD004BF84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA8F05E19F29ADD004BF84E /* Build configuration list for PBXNativeTarget "ChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA8F05F19F29ADD004BF84E /* Debug */,
+				BCA8F06019F29ADD004BF84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA8F02719F29ADC004BF84E /* Project object */;
+}

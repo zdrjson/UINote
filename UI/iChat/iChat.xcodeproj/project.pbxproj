@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC07EB661A024DA5000856CE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07EB641A024DA5000856CE /* LoginViewController.m */; };
+		BC07EB671A024DA5000856CE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC07EB651A024DA5000856CE /* LoginViewController.xib */; };
+		BC07EB6E1A0258E5000856CE /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07EB6C1A0258E5000856CE /* ChatViewController.m */; };
+		BC07EB6F1A0258E5000856CE /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC07EB6D1A0258E5000856CE /* ChatViewController.xib */; };
+		BC07EB781A025B9A000856CE /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07EB771A025B9A000856CE /* BaseModel.m */; };
+		BC07EB7B1A025BB2000856CE /* MsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07EB7A1A025BB2000856CE /* MsgModel.m */; };
+		BC07EB7E1A026A9F000856CE /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC07EB7D1A026A9F000856CE /* Tools.m */; };
+		BC1A2D5C1A007DD40045100E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D5B1A007DD40045100E /* Foundation.framework */; };
+		BC1A2D5E1A007DD40045100E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D5D1A007DD40045100E /* CoreGraphics.framework */; };
+		BC1A2D601A007DD40045100E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D5F1A007DD40045100E /* UIKit.framework */; };
+		BC1A2D661A007DD40045100E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1A2D641A007DD40045100E /* InfoPlist.strings */; };
+		BC1A2D681A007DD50045100E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D671A007DD50045100E /* main.m */; };
+		BC1A2D6C1A007DD50045100E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D6B1A007DD50045100E /* AppDelegate.m */; };
+		BC1A2D6F1A007DD50045100E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1A2D6D1A007DD50045100E /* Main.storyboard */; };
+		BC1A2D721A007DD50045100E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D711A007DD50045100E /* ViewController.m */; };
+		BC1A2D741A007DD50045100E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1A2D731A007DD50045100E /* Images.xcassets */; };
+		BC1A2D7B1A007DD50045100E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D7A1A007DD50045100E /* XCTest.framework */; };
+		BC1A2D7C1A007DD50045100E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D5B1A007DD40045100E /* Foundation.framework */; };
+		BC1A2D7D1A007DD50045100E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1A2D5F1A007DD40045100E /* UIKit.framework */; };
+		BC1A2D851A007DD50045100E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1A2D831A007DD50045100E /* InfoPlist.strings */; };
+		BC1A2D871A007DD50045100E /* iChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D861A007DD50045100E /* iChatTests.m */; };
+		BC1A2D931A0085520045100E /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D921A0085520045100E /* UserModel.m */; };
+		BC1A2D971A0095CD0045100E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A2D951A0095CD0045100E /* RegisterViewController.m */; };
+		BC1A2D981A0095CD0045100E /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1A2D961A0095CD0045100E /* RegisterViewController.xib */; };
+		BC534D891A00C2FE009364E1 /* ChatEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC534D881A00C2FE009364E1 /* ChatEngine.m */; };
+		BC534D8C1A00C804009364E1 /* HttpRequstManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC534D8A1A00C804009364E1 /* HttpRequstManager.m */; };
+		BC534DD01A00E11E009364E1 /* LoginUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC534DCF1A00E11E009364E1 /* LoginUserModel.m */; };
+		BCDCDECD1A03AAA100C8B5EB /* MsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDECB1A03AAA100C8B5EB /* MsgCell.m */; };
+		BCDCDECE1A03AAA100C8B5EB /* MsgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDECC1A03AAA100C8B5EB /* MsgCell.xib */; };
+		BCDCDED41A03B10600C8B5EB /* ReceiverTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDED01A03B10600C8B5EB /* ReceiverTextNodeBkg.png */; };
+		BCDCDED51A03B10600C8B5EB /* ReceiverTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDED11A03B10600C8B5EB /* ReceiverTextNodeBkg@2x.png */; };
+		BCDCDED61A03B10600C8B5EB /* SenderTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDED21A03B10600C8B5EB /* SenderTextNodeBkg.png */; };
+		BCDCDED71A03B10600C8B5EB /* SenderTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDED31A03B10600C8B5EB /* SenderTextNodeBkg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1A2D7E1A007DD50045100E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1A2D501A007DD40045100E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1A2D571A007DD40045100E;
+			remoteInfo = iChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC07EB631A024DA5000856CE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BC07EB641A024DA5000856CE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BC07EB651A024DA5000856CE /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BC07EB681A0254A7000856CE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BC07EB691A0254A7000856CE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BC07EB6A1A0254A7000856CE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BC07EB6B1A0258E5000856CE /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		BC07EB6C1A0258E5000856CE /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		BC07EB6D1A0258E5000856CE /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		BC07EB761A025B9A000856CE /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BC07EB771A025B9A000856CE /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		BC07EB791A025BB2000856CE /* MsgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgModel.h; sourceTree = "<group>"; };
+		BC07EB7A1A025BB2000856CE /* MsgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgModel.m; sourceTree = "<group>"; };
+		BC07EB7C1A026A9F000856CE /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		BC07EB7D1A026A9F000856CE /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		BC1A2D581A007DD40045100E /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1A2D5B1A007DD40045100E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC1A2D5D1A007DD40045100E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC1A2D5F1A007DD40045100E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC1A2D631A007DD40045100E /* iChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChat-Info.plist"; sourceTree = "<group>"; };
+		BC1A2D651A007DD40045100E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC1A2D671A007DD50045100E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC1A2D691A007DD50045100E /* iChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChat-Prefix.pch"; sourceTree = "<group>"; };
+		BC1A2D6A1A007DD50045100E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC1A2D6B1A007DD50045100E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC1A2D6E1A007DD50045100E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC1A2D701A007DD50045100E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iChat/ViewController.h; sourceTree = "<group>"; };
+		BC1A2D711A007DD50045100E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iChat/ViewController.m; sourceTree = "<group>"; };
+		BC1A2D731A007DD50045100E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC1A2D791A007DD50045100E /* iChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1A2D7A1A007DD50045100E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC1A2D821A007DD50045100E /* iChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChatTests-Info.plist"; sourceTree = "<group>"; };
+		BC1A2D841A007DD50045100E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC1A2D861A007DD50045100E /* iChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChatTests.m; sourceTree = "<group>"; };
+		BC1A2D901A0081690045100E /* public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = public.h; sourceTree = "<group>"; };
+		BC1A2D911A0085520045100E /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = iChat/UserModel.h; sourceTree = "<group>"; };
+		BC1A2D921A0085520045100E /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = iChat/UserModel.m; sourceTree = "<group>"; };
+		BC1A2D941A0095CD0045100E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = iChat/RegisterViewController.h; sourceTree = "<group>"; };
+		BC1A2D951A0095CD0045100E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = iChat/RegisterViewController.m; sourceTree = "<group>"; };
+		BC1A2D961A0095CD0045100E /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = iChat/RegisterViewController.xib; sourceTree = "<group>"; };
+		BC534D871A00C2FE009364E1 /* ChatEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatEngine.h; sourceTree = "<group>"; };
+		BC534D881A00C2FE009364E1 /* ChatEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEngine.m; sourceTree = "<group>"; };
+		BC534D8A1A00C804009364E1 /* HttpRequstManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequstManager.m; path = "../../爱限免new/HttpRequstManager.m"; sourceTree = "<group>"; };
+		BC534D8B1A00C804009364E1 /* HttpRequstManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequstManager.h; path = "../../爱限免new/HttpRequstManager.h"; sourceTree = "<group>"; };
+		BC534DCE1A00E11E009364E1 /* LoginUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginUserModel.h; path = iChat/LoginUserModel.h; sourceTree = "<group>"; };
+		BC534DCF1A00E11E009364E1 /* LoginUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginUserModel.m; path = iChat/LoginUserModel.m; sourceTree = "<group>"; };
+		BCDCDECA1A03AAA100C8B5EB /* MsgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgCell.h; sourceTree = "<group>"; };
+		BCDCDECB1A03AAA100C8B5EB /* MsgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgCell.m; sourceTree = "<group>"; };
+		BCDCDECC1A03AAA100C8B5EB /* MsgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgCell.xib; sourceTree = "<group>"; };
+		BCDCDED01A03B10600C8B5EB /* ReceiverTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceiverTextNodeBkg.png; sourceTree = "<group>"; };
+		BCDCDED11A03B10600C8B5EB /* ReceiverTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		BCDCDED21A03B10600C8B5EB /* SenderTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SenderTextNodeBkg.png; sourceTree = "<group>"; };
+		BCDCDED31A03B10600C8B5EB /* SenderTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1A2D551A007DD40045100E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1A2D5E1A007DD40045100E /* CoreGraphics.framework in Frameworks */,
+				BC1A2D601A007DD40045100E /* UIKit.framework in Frameworks */,
+				BC1A2D5C1A007DD40045100E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1A2D761A007DD50045100E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1A2D7B1A007DD50045100E /* XCTest.framework in Frameworks */,
+				BC1A2D7D1A007DD50045100E /* UIKit.framework in Frameworks */,
+				BC1A2D7C1A007DD50045100E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC07EB601A024D1E000856CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D701A007DD50045100E /* ViewController.h */,
+				BC1A2D711A007DD50045100E /* ViewController.m */,
+				BC1A2D941A0095CD0045100E /* RegisterViewController.h */,
+				BC1A2D951A0095CD0045100E /* RegisterViewController.m */,
+				BC1A2D961A0095CD0045100E /* RegisterViewController.xib */,
+				BC07EB631A024DA5000856CE /* LoginViewController.h */,
+				BC07EB641A024DA5000856CE /* LoginViewController.m */,
+				BC07EB651A024DA5000856CE /* LoginViewController.xib */,
+				BC07EB6B1A0258E5000856CE /* ChatViewController.h */,
+				BC07EB6C1A0258E5000856CE /* ChatViewController.m */,
+				BC07EB6D1A0258E5000856CE /* ChatViewController.xib */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BC07EB611A024D21000856CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDECA1A03AAA100C8B5EB /* MsgCell.h */,
+				BCDCDECB1A03AAA100C8B5EB /* MsgCell.m */,
+				BCDCDECC1A03AAA100C8B5EB /* MsgCell.xib */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BC07EB621A024D2B000856CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC07EB761A025B9A000856CE /* BaseModel.h */,
+				BC07EB771A025B9A000856CE /* BaseModel.m */,
+				BC1A2D911A0085520045100E /* UserModel.h */,
+				BC1A2D921A0085520045100E /* UserModel.m */,
+				BC534DCE1A00E11E009364E1 /* LoginUserModel.h */,
+				BC534DCF1A00E11E009364E1 /* LoginUserModel.m */,
+				BC07EB791A025BB2000856CE /* MsgModel.h */,
+				BC07EB7A1A025BB2000856CE /* MsgModel.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BC1A2D4F1A007DD40045100E = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D611A007DD40045100E /* iChat */,
+				BC1A2D801A007DD50045100E /* iChatTests */,
+				BC1A2D5A1A007DD40045100E /* Frameworks */,
+				BC1A2D591A007DD40045100E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1A2D591A007DD40045100E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D581A007DD40045100E /* iChat.app */,
+				BC1A2D791A007DD50045100E /* iChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1A2D5A1A007DD40045100E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D5B1A007DD40045100E /* Foundation.framework */,
+				BC1A2D5D1A007DD40045100E /* CoreGraphics.framework */,
+				BC1A2D5F1A007DD40045100E /* UIKit.framework */,
+				BC1A2D7A1A007DD50045100E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1A2D611A007DD40045100E /* iChat */ = {
+			isa = PBXGroup;
+			children = (
+				BC07EB621A024D2B000856CE /* Models */,
+				BC07EB611A024D21000856CE /* Views */,
+				BC07EB601A024D1E000856CE /* Controllers */,
+				BC534D861A00C2E3009364E1 /* Utils */,
+				BC1A2D6A1A007DD50045100E /* AppDelegate.h */,
+				BC1A2D6B1A007DD50045100E /* AppDelegate.m */,
+				BC1A2D6D1A007DD50045100E /* Main.storyboard */,
+				BC1A2D731A007DD50045100E /* Images.xcassets */,
+				BC1A2D621A007DD40045100E /* Supporting Files */,
+			);
+			path = iChat;
+			sourceTree = "<group>";
+		};
+		BC1A2D621A007DD40045100E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDECF1A03B10600C8B5EB /* 归档-7 */,
+				BC1A2D631A007DD40045100E /* iChat-Info.plist */,
+				BC1A2D641A007DD40045100E /* InfoPlist.strings */,
+				BC1A2D671A007DD50045100E /* main.m */,
+				BC1A2D691A007DD50045100E /* iChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC1A2D801A007DD50045100E /* iChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D861A007DD50045100E /* iChatTests.m */,
+				BC1A2D811A007DD50045100E /* Supporting Files */,
+			);
+			path = iChatTests;
+			sourceTree = "<group>";
+		};
+		BC1A2D811A007DD50045100E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2D821A007DD50045100E /* iChatTests-Info.plist */,
+				BC1A2D831A007DD50045100E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC534D861A00C2E3009364E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC534D8B1A00C804009364E1 /* HttpRequstManager.h */,
+				BC534D8A1A00C804009364E1 /* HttpRequstManager.m */,
+				BC534D871A00C2FE009364E1 /* ChatEngine.h */,
+				BC534D881A00C2FE009364E1 /* ChatEngine.m */,
+				BC07EB7C1A026A9F000856CE /* Tools.h */,
+				BC07EB7D1A026A9F000856CE /* Tools.m */,
+				BC1A2D901A0081690045100E /* public.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		BCDCDECF1A03B10600C8B5EB /* 归档-7 */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDED01A03B10600C8B5EB /* ReceiverTextNodeBkg.png */,
+				BCDCDED11A03B10600C8B5EB /* ReceiverTextNodeBkg@2x.png */,
+				BCDCDED21A03B10600C8B5EB /* SenderTextNodeBkg.png */,
+				BCDCDED31A03B10600C8B5EB /* SenderTextNodeBkg@2x.png */,
+			);
+			path = "归档-7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1A2D571A007DD40045100E /* iChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1A2D8A1A007DD50045100E /* Build configuration list for PBXNativeTarget "iChat" */;
+			buildPhases = (
+				BC1A2D541A007DD40045100E /* Sources */,
+				BC1A2D551A007DD40045100E /* Frameworks */,
+				BC1A2D561A007DD40045100E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChat;
+			productName = iChat;
+			productReference = BC1A2D581A007DD40045100E /* iChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1A2D781A007DD50045100E /* iChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1A2D8D1A007DD50045100E /* Build configuration list for PBXNativeTarget "iChatTests" */;
+			buildPhases = (
+				BC1A2D751A007DD50045100E /* Sources */,
+				BC1A2D761A007DD50045100E /* Frameworks */,
+				BC1A2D771A007DD50045100E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1A2D7F1A007DD50045100E /* PBXTargetDependency */,
+			);
+			name = iChatTests;
+			productName = iChatTests;
+			productReference = BC1A2D791A007DD50045100E /* iChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1A2D501A007DD40045100E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BC1A2D781A007DD50045100E = {
+						TestTargetID = BC1A2D571A007DD40045100E;
+					};
+				};
+			};
+			buildConfigurationList = BC1A2D531A007DD40045100E /* Build configuration list for PBXProject "iChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = BC1A2D4F1A007DD40045100E;
+			productRefGroup = BC1A2D591A007DD40045100E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1A2D571A007DD40045100E /* iChat */,
+				BC1A2D781A007DD50045100E /* iChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1A2D561A007DD40045100E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC07EB671A024DA5000856CE /* LoginViewController.xib in Resources */,
+				BC1A2D741A007DD50045100E /* Images.xcassets in Resources */,
+				BCDCDED61A03B10600C8B5EB /* SenderTextNodeBkg.png in Resources */,
+				BC07EB6F1A0258E5000856CE /* ChatViewController.xib in Resources */,
+				BCDCDECE1A03AAA100C8B5EB /* MsgCell.xib in Resources */,
+				BC1A2D661A007DD40045100E /* InfoPlist.strings in Resources */,
+				BC1A2D6F1A007DD50045100E /* Main.storyboard in Resources */,
+				BCDCDED51A03B10600C8B5EB /* ReceiverTextNodeBkg@2x.png in Resources */,
+				BCDCDED71A03B10600C8B5EB /* SenderTextNodeBkg@2x.png in Resources */,
+				BCDCDED41A03B10600C8B5EB /* ReceiverTextNodeBkg.png in Resources */,
+				BC1A2D981A0095CD0045100E /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1A2D771A007DD50045100E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1A2D851A007DD50045100E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1A2D541A007DD40045100E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1A2D971A0095CD0045100E /* RegisterViewController.m in Sources */,
+				BC534D8C1A00C804009364E1 /* HttpRequstManager.m in Sources */,
+				BC07EB6E1A0258E5000856CE /* ChatViewController.m in Sources */,
+				BC07EB781A025B9A000856CE /* BaseModel.m in Sources */,
+				BC534D891A00C2FE009364E1 /* ChatEngine.m in Sources */,
+				BC1A2D721A007DD50045100E /* ViewController.m in Sources */,
+				BC07EB7E1A026A9F000856CE /* Tools.m in Sources */,
+				BC534DD01A00E11E009364E1 /* LoginUserModel.m in Sources */,
+				BC07EB661A024DA5000856CE /* LoginViewController.m in Sources */,
+				BC1A2D6C1A007DD50045100E /* AppDelegate.m in Sources */,
+				BC07EB7B1A025BB2000856CE /* MsgModel.m in Sources */,
+				BCDCDECD1A03AAA100C8B5EB /* MsgCell.m in Sources */,
+				BC1A2D931A0085520045100E /* UserModel.m in Sources */,
+				BC1A2D681A007DD50045100E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1A2D751A007DD50045100E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1A2D871A007DD50045100E /* iChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1A2D7F1A007DD50045100E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1A2D571A007DD40045100E /* iChat */;
+			targetProxy = BC1A2D7E1A007DD50045100E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1A2D641A007DD40045100E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1A2D651A007DD40045100E /* en */,
+				BC07EB691A0254A7000856CE /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC1A2D6D1A007DD50045100E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1A2D6E1A007DD50045100E /* Base */,
+				BC07EB681A0254A7000856CE /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC1A2D831A007DD50045100E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1A2D841A007DD50045100E /* en */,
+				BC07EB6A1A0254A7000856CE /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1A2D881A007DD50045100E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC1A2D891A007DD50045100E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1A2D8B1A007DD50045100E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChat/iChat-Prefix.pch";
+				INFOPLIST_FILE = "iChat/iChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC1A2D8C1A007DD50045100E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChat/iChat-Prefix.pch";
+				INFOPLIST_FILE = "iChat/iChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC1A2D8E1A007DD50045100E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iChat.app/iChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChat/iChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iChatTests/iChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC1A2D8F1A007DD50045100E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iChat.app/iChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iChat/iChat-Prefix.pch";
+				INFOPLIST_FILE = "iChatTests/iChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1A2D531A007DD40045100E /* Build configuration list for PBXProject "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1A2D881A007DD50045100E /* Debug */,
+				BC1A2D891A007DD50045100E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1A2D8A1A007DD50045100E /* Build configuration list for PBXNativeTarget "iChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1A2D8B1A007DD50045100E /* Debug */,
+				BC1A2D8C1A007DD50045100E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1A2D8D1A007DD50045100E /* Build configuration list for PBXNativeTarget "iChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1A2D8E1A007DD50045100E /* Debug */,
+				BC1A2D8F1A007DD50045100E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1A2D501A007DD40045100E /* Project object */;
+}

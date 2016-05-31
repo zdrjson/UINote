@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCDCDEE51A03BBAA00C8B5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDEE41A03BBAA00C8B5EB /* Foundation.framework */; };
+		BCDCDEE71A03BBAA00C8B5EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDEE61A03BBAA00C8B5EB /* CoreGraphics.framework */; };
+		BCDCDEE91A03BBAA00C8B5EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDEE81A03BBAA00C8B5EB /* UIKit.framework */; };
+		BCDCDEEF1A03BBAA00C8B5EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDEED1A03BBAA00C8B5EB /* InfoPlist.strings */; };
+		BCDCDEF11A03BBAA00C8B5EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDEF01A03BBAA00C8B5EB /* main.m */; };
+		BCDCDEF51A03BBAA00C8B5EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDEF41A03BBAA00C8B5EB /* AppDelegate.m */; };
+		BCDCDEF81A03BBAA00C8B5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDEF61A03BBAA00C8B5EB /* Main.storyboard */; };
+		BCDCDEFB1A03BBAA00C8B5EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDEFA1A03BBAA00C8B5EB /* ViewController.m */; };
+		BCDCDEFD1A03BBAA00C8B5EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDEFC1A03BBAA00C8B5EB /* Images.xcassets */; };
+		BCDCDF041A03BBAA00C8B5EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDF031A03BBAA00C8B5EB /* XCTest.framework */; };
+		BCDCDF051A03BBAA00C8B5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDEE41A03BBAA00C8B5EB /* Foundation.framework */; };
+		BCDCDF061A03BBAA00C8B5EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDCDEE81A03BBAA00C8B5EB /* UIKit.framework */; };
+		BCDCDF0E1A03BBAA00C8B5EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCDCDF0C1A03BBAA00C8B5EB /* InfoPlist.strings */; };
+		BCDCDF101A03BBAA00C8B5EB /* Friday_10_31_CoreDat___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDF0F1A03BBAA00C8B5EB /* Friday_10_31_CoreDat___Tests.m */; };
+		BCDCDF1B1A03BBBF00C8B5EB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDF191A03BBBF00C8B5EB /* Model.xcdatamodeld */; };
+		BCDCDF1E1A03BCA800C8B5EB /* ClassEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDF1D1A03BCA800C8B5EB /* ClassEntity.m */; };
+		BCDCDF211A03BCA900C8B5EB /* StudentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDF201A03BCA900C8B5EB /* StudentEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCDCDF071A03BBAA00C8B5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCDCDED91A03BBAA00C8B5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDCDEE01A03BBAA00C8B5EB;
+			remoteInfo = "Friday_10.31_CoreDat数据库";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCDCDEE11A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friday_10.31_CoreDat数据库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDCDEE41A03BBAA00C8B5EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCDCDEE61A03BBAA00C8B5EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCDCDEE81A03BBAA00C8B5EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCDCDEEC1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Friday_10.31_CoreDat数据库-Info.plist"; sourceTree = "<group>"; };
+		BCDCDEEE1A03BBAA00C8B5EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCDCDEF01A03BBAA00C8B5EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCDCDEF21A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Friday_10.31_CoreDat数据库-Prefix.pch"; sourceTree = "<group>"; };
+		BCDCDEF31A03BBAA00C8B5EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCDCDEF41A03BBAA00C8B5EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCDCDEF71A03BBAA00C8B5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCDCDEF91A03BBAA00C8B5EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCDCDEFA1A03BBAA00C8B5EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCDCDEFC1A03BBAA00C8B5EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCDCDF021A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Friday_10.31_CoreDat数据库Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDCDF031A03BBAA00C8B5EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCDCDF0B1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Friday_10.31_CoreDat数据库Tests-Info.plist"; sourceTree = "<group>"; };
+		BCDCDF0D1A03BBAA00C8B5EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCDCDF0F1A03BBAA00C8B5EB /* Friday_10_31_CoreDat___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Friday_10_31_CoreDat___Tests.m"; sourceTree = "<group>"; };
+		BCDCDF1A1A03BBBF00C8B5EB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BCDCDF1C1A03BCA800C8B5EB /* ClassEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassEntity.h; sourceTree = "<group>"; };
+		BCDCDF1D1A03BCA800C8B5EB /* ClassEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassEntity.m; sourceTree = "<group>"; };
+		BCDCDF1F1A03BCA900C8B5EB /* StudentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEntity.h; sourceTree = "<group>"; };
+		BCDCDF201A03BCA900C8B5EB /* StudentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDCDEDE1A03BBAA00C8B5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDEE71A03BBAA00C8B5EB /* CoreGraphics.framework in Frameworks */,
+				BCDCDEE91A03BBAA00C8B5EB /* UIKit.framework in Frameworks */,
+				BCDCDEE51A03BBAA00C8B5EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDCDEFF1A03BBAA00C8B5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDF041A03BBAA00C8B5EB /* XCTest.framework in Frameworks */,
+				BCDCDF061A03BBAA00C8B5EB /* UIKit.framework in Frameworks */,
+				BCDCDF051A03BBAA00C8B5EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCDCDED81A03BBAA00C8B5EB = {
+			isa = PBXGroup;
+			children = (
+				BCDCDEEA1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库 */,
+				BCDCDF091A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests */,
+				BCDCDEE31A03BBAA00C8B5EB /* Frameworks */,
+				BCDCDEE21A03BBAA00C8B5EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDCDEE21A03BBAA00C8B5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDEE11A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库.app */,
+				BCDCDF021A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDCDEE31A03BBAA00C8B5EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDEE41A03BBAA00C8B5EB /* Foundation.framework */,
+				BCDCDEE61A03BBAA00C8B5EB /* CoreGraphics.framework */,
+				BCDCDEE81A03BBAA00C8B5EB /* UIKit.framework */,
+				BCDCDF031A03BBAA00C8B5EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDCDEEA1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDEF31A03BBAA00C8B5EB /* AppDelegate.h */,
+				BCDCDEF41A03BBAA00C8B5EB /* AppDelegate.m */,
+				BCDCDEF61A03BBAA00C8B5EB /* Main.storyboard */,
+				BCDCDEF91A03BBAA00C8B5EB /* ViewController.h */,
+				BCDCDEFA1A03BBAA00C8B5EB /* ViewController.m */,
+				BCDCDF191A03BBBF00C8B5EB /* Model.xcdatamodeld */,
+				BCDCDF1F1A03BCA900C8B5EB /* StudentEntity.h */,
+				BCDCDF201A03BCA900C8B5EB /* StudentEntity.m */,
+				BCDCDF1C1A03BCA800C8B5EB /* ClassEntity.h */,
+				BCDCDF1D1A03BCA800C8B5EB /* ClassEntity.m */,
+				BCDCDEFC1A03BBAA00C8B5EB /* Images.xcassets */,
+				BCDCDEEB1A03BBAA00C8B5EB /* Supporting Files */,
+			);
+			path = "Friday_10.31_CoreDat数据库";
+			sourceTree = "<group>";
+		};
+		BCDCDEEB1A03BBAA00C8B5EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDEEC1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库-Info.plist */,
+				BCDCDEED1A03BBAA00C8B5EB /* InfoPlist.strings */,
+				BCDCDEF01A03BBAA00C8B5EB /* main.m */,
+				BCDCDEF21A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCDCDF091A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDF0F1A03BBAA00C8B5EB /* Friday_10_31_CoreDat___Tests.m */,
+				BCDCDF0A1A03BBAA00C8B5EB /* Supporting Files */,
+			);
+			path = "Friday_10.31_CoreDat数据库Tests";
+			sourceTree = "<group>";
+		};
+		BCDCDF0A1A03BBAA00C8B5EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCDF0B1A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests-Info.plist */,
+				BCDCDF0C1A03BBAA00C8B5EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDCDEE01A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDCDF131A03BBAA00C8B5EB /* Build configuration list for PBXNativeTarget "Friday_10.31_CoreDat数据库" */;
+			buildPhases = (
+				BCDCDEDD1A03BBAA00C8B5EB /* Sources */,
+				BCDCDEDE1A03BBAA00C8B5EB /* Frameworks */,
+				BCDCDEDF1A03BBAA00C8B5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Friday_10.31_CoreDat数据库";
+			productName = "Friday_10.31_CoreDat数据库";
+			productReference = BCDCDEE11A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCDCDF011A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDCDF161A03BBAA00C8B5EB /* Build configuration list for PBXNativeTarget "Friday_10.31_CoreDat数据库Tests" */;
+			buildPhases = (
+				BCDCDEFE1A03BBAA00C8B5EB /* Sources */,
+				BCDCDEFF1A03BBAA00C8B5EB /* Frameworks */,
+				BCDCDF001A03BBAA00C8B5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCDCDF081A03BBAA00C8B5EB /* PBXTargetDependency */,
+			);
+			name = "Friday_10.31_CoreDat数据库Tests";
+			productName = "Friday_10.31_CoreDat数据库Tests";
+			productReference = BCDCDF021A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDCDED91A03BBAA00C8B5EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhangderong;
+				TargetAttributes = {
+					BCDCDF011A03BBAA00C8B5EB = {
+						TestTargetID = BCDCDEE01A03BBAA00C8B5EB;
+					};
+				};
+			};
+			buildConfigurationList = BCDCDEDC1A03BBAA00C8B5EB /* Build configuration list for PBXProject "Friday_10.31_CoreDat数据库" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCDCDED81A03BBAA00C8B5EB;
+			productRefGroup = BCDCDEE21A03BBAA00C8B5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDCDEE01A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库 */,
+				BCDCDF011A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCDCDEDF1A03BBAA00C8B5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDEFD1A03BBAA00C8B5EB /* Images.xcassets in Resources */,
+				BCDCDEEF1A03BBAA00C8B5EB /* InfoPlist.strings in Resources */,
+				BCDCDEF81A03BBAA00C8B5EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDCDF001A03BBAA00C8B5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDF0E1A03BBAA00C8B5EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDCDEDD1A03BBAA00C8B5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDF211A03BCA900C8B5EB /* StudentEntity.m in Sources */,
+				BCDCDEFB1A03BBAA00C8B5EB /* ViewController.m in Sources */,
+				BCDCDEF51A03BBAA00C8B5EB /* AppDelegate.m in Sources */,
+				BCDCDF1E1A03BCA800C8B5EB /* ClassEntity.m in Sources */,
+				BCDCDEF11A03BBAA00C8B5EB /* main.m in Sources */,
+				BCDCDF1B1A03BBBF00C8B5EB /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDCDEFE1A03BBAA00C8B5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCDF101A03BBAA00C8B5EB /* Friday_10_31_CoreDat___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCDCDF081A03BBAA00C8B5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDCDEE01A03BBAA00C8B5EB /* Friday_10.31_CoreDat数据库 */;
+			targetProxy = BCDCDF071A03BBAA00C8B5EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCDCDEED1A03BBAA00C8B5EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDCDEEE1A03BBAA00C8B5EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCDCDEF61A03BBAA00C8B5EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDCDEF71A03BBAA00C8B5EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCDCDF0C1A03BBAA00C8B5EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDCDF0D1A03BBAA00C8B5EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCDCDF111A03BBAA00C8B5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCDCDF121A03BBAA00C8B5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCDCDF141A03BBAA00C8B5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Prefix.pch";
+				INFOPLIST_FILE = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCDCDF151A03BBAA00C8B5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Prefix.pch";
+				INFOPLIST_FILE = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCDCDF171A03BBAA00C8B5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Friday_10.31_CoreDat数据库.app/Friday_10.31_CoreDat数据库";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Friday_10.31_CoreDat数据库Tests/Friday_10.31_CoreDat数据库Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCDCDF181A03BBAA00C8B5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Friday_10.31_CoreDat数据库.app/Friday_10.31_CoreDat数据库";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friday_10.31_CoreDat数据库/Friday_10.31_CoreDat数据库-Prefix.pch";
+				INFOPLIST_FILE = "Friday_10.31_CoreDat数据库Tests/Friday_10.31_CoreDat数据库Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDCDEDC1A03BBAA00C8B5EB /* Build configuration list for PBXProject "Friday_10.31_CoreDat数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDCDF111A03BBAA00C8B5EB /* Debug */,
+				BCDCDF121A03BBAA00C8B5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDCDF131A03BBAA00C8B5EB /* Build configuration list for PBXNativeTarget "Friday_10.31_CoreDat数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDCDF141A03BBAA00C8B5EB /* Debug */,
+				BCDCDF151A03BBAA00C8B5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDCDF161A03BBAA00C8B5EB /* Build configuration list for PBXNativeTarget "Friday_10.31_CoreDat数据库Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDCDF171A03BBAA00C8B5EB /* Debug */,
+				BCDCDF181A03BBAA00C8B5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCDCDF191A03BBBF00C8B5EB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCDCDF1A1A03BBBF00C8B5EB /* Model.xcdatamodel */,
+			);
+			currentVersion = BCDCDF1A1A03BBBF00C8B5EB /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCDCDED91A03BBAA00C8B5EB /* Project object */;
+}
